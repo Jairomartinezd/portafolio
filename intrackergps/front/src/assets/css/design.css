@@ -1,0 +1,47 @@
+.flex-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.cuadroPais{
+    background-color: rgba(107,21,21,0.75);
+    border-radius: 20px;
+}
+
+.iconoBandera{
+    width: 180px;
+    height: 120px;
+}
+
+.tituloPais{
+    padding-top: 10px;
+}
+
+.paddingSeparadorTope{
+    padding-top: 15px;
+}
+
+.tituloNegrita{
+    font-weight: bold;
+}
+
+.separadorLogoIndex{
+    padding-top: 50px;
+}
+
+.container-fluid, .row {
+    padding-right: 0 !important;
+    margin-right: 0 !important;
+}
+
+.paddingInternoDerecho{
+    padding-right: 20px;
+}
+
+.paddingInternIzquierdo{
+    padding-left: 20px;
+}

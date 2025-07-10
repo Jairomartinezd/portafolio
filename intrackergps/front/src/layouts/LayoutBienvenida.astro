@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon_intracker.png" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Intracker GPS</title>
+	</head>
+	<body id="indexBienvenidos">
+		<slot />
+	</body>
+</html>
+
+<style>
+	html,
+	body {
+		/* margin-top: 10px;
+		padding-top: 10px; */
+		width: 100%;
+		height: 100%;
+	}
+    #indexBienvenidos{
+        background-color: #222;
+		background-image: url('../assets/img/fondo_index_2.jpg');
+		background-attachment: fixed;
+		background-size: cover;
+  		/*background-repeat: no-repeat;*/
+        color: whitesmoke;
+        font-family: Montserrat, sans-serif;
+    }
+</style>

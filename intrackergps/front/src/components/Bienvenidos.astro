@@ -1,0 +1,49 @@
+---
+import '../assets/vendor/bootstrap/css/bootstrap.min.css';
+import '../assets/css/design.css';
+
+import IntrackerLogo from '../assets/img/logo_bienvenido_intracker.png';
+import Colombia from '../assets/img/co.png';
+import Sudamerica from '../assets/img/Mapa_Sudamerica_IntrackerGPS.png';
+import Venezuela from '../assets/img/ve.png';
+---
+
+<div class="container">
+    <div class="row">
+        <div class="col-5">
+            <section class="flex-container">
+                <div class="row separadorLogoIndex">
+                    <img src={IntrackerLogo.src} class="img-fluid" alt="">
+                </div>
+                <div class="row">
+                    <div class="col-3"></div>
+                    <div class="col-6">
+                        <br />
+                        <img src={Sudamerica.src} class="img-fluid" usemap="#sudamerica" alt="">
+                    </div>
+                    <div class="col-3"></div>
+                </div>
+            </section>
+        </div>
+        <div class="col-2"></div>
+        <div class="col-5">
+            <div class="row flex-container">
+                <div class="cuadroPais text-center">
+                    <p class="paddingSeparadorTope tituloNegrita" style="font-size: 2vw;">Seleccione el Pa&iacute;s</p>
+                    
+                    <div class="row">
+                        <div class="col-6">
+                            <center><img src={Venezuela.src} class="img-fluid" width="150" height="100" alt="Venezuela"></center>
+                            <p class="text-center fw-bold tituloPais" style="font-size: 1vw;">Venezuela</p>
+                        </div>
+                        <!-- <div class="col-2"></div> -->
+                        <div class="col-6">
+                            <center><img src={Colombia.src} class="img-fluid" width="150" height="100" alt="Colombia"></center>
+                            <p class="text-center fw-bold tituloPais" style="font-size: 1vw;">Colombia</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
