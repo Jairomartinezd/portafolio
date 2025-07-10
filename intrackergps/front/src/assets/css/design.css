@@ -45,3 +45,12 @@
 .paddingInternIzquierdo{
     padding-left: 20px;
 }
+
+.logoIndex{
+    width: 170px;
+    height: 200px;
+}
+
+.enlaceColor:hover{
+    color: #6b1515;
+}
