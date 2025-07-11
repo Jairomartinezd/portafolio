@@ -10894,7 +10894,7 @@ p {
   letter-spacing: 0.0625em;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #ffc800;
+  color: #9C6363;
 }
 
 @media (min-width: 992px) {
@@ -10916,7 +10916,8 @@ p {
   #mainNav.navbar-shrink {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background-color: #212529;
+    /* background-color: #212529; */
+    background-color: rgba(33, 37, 41, 0.9);
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
