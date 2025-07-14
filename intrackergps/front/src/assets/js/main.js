@@ -1,16 +1,20 @@
-$(document).ready(function(){
-    $('.owl-carousel').owlCarousel({
-        items: 4,
-        autoplay: false,
-        loop: true,
-        margin: 10,
-        nav: true,
-        dots: true,
-        navText: ["<i class='fa fa-long-arrow-left'>", "<i class='fa fa-long-arrow-right'>"]
-    })
-
-    $('.owl-carousel').find('.owl-nav').removeClass('disabled');
-        $('.owl-carousel').on('changed.owl.carousel', (event) =>{
-            $(this).find('.owl-nav').removeClass('disabled');
-    });
-});
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:3,
+            nav:false
+        },
+        1000:{
+            items:5,
+            nav:true,
+            loop:false
+        }
+    }
+})
