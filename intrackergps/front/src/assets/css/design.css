@@ -69,8 +69,33 @@
     text-align: justify;
 }
 
+.textoCentrado{
+  text-align: center;
+}
+
 .iconConocenos{
     width: 70px;
+}
+
+.imagenCarruselServicios{
+    width: 600px;
+    height: 450px;
+}
+
+.tituloServicios{
+  font-size: 20px !important;
+}
+
+.tituloServiciosLargo{
+  font-size: 18px !important;
+}
+
+.resumenServicio{
+  font-size: 14px !important;
+}
+
+.colorInTracker1{
+  color: #6B1515;
 }
 
 /* Sección Servicios */
@@ -89,7 +114,7 @@
   position: absolute;
   width: 100%;
   height: 100%;
-  background: rgba(255, 200, 0, 0.9);
+  background: rgba(107,21,21,0.75);
   align-items: center;
   justify-content: center;
   opacity: 0;
@@ -156,93 +181,4 @@
 }
 .servicios-modal .close-modal:hover {
   opacity: 0.3;
-}
-
-/* ath_carrusel */
-.ath_carousel_se_03 {
-    overflow: hidden;
-}
-
-
-.ath_carousel_se_03 .product-grid3 {
-    border: none;
-    box-shadow: none;
-}
-
-
-.ath_carousel_se_03 .owl-carousel .owl-nav button.owl-next {
-    position: absolute;
-    top: 42%;
-    right: -40px;
-}
-
-.ath_carousel_se_03 .owl-carousel .owl-nav button.owl-next:hover {
-    background: 
-#a5ca34;
-    color: 
-#fff;
-}
-
-.ath_carousel_se_03 .owl-carousel .owl-nav button.owl-prev {
-    position: absolute;
-    top: 42%;
-    left: -40px;
-}
-
-.ath_carousel_se_03 .owl-carousel .owl-nav button.owl-prev:hover {
-    background: 
-#a5ca34;
-    color: 
-#fff;
-}
-
-.ath_carousel_se_03 .owl-arrow .owl-nav {
-    position: absolute;
-    top: 0;
-    right: 0;
-    font-size: 1.8rem;
-}
-
-.ath_carousel_se_03 .owl-carousel .owl-nav button.owl-prev,
-.ath_carousel_se_03 .owl-carousel .owl-nav button.owl-next {
-    display: inline-block;
-    transition: all 0.6s ease-in-out;
-    color: 
-#a5ca34;
-    background: 
-rgb(255, 255, 255);
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-    font-size: 25px;
-    transform: translateY(-50%);
-    box-shadow: 0 0 8px 
-rgba(0, 0, 0, .25);
-}
-
-
-.ath_carousel_se_03 .ath_round_icon_img {
-    text-align: center;
-    line-height: 100px;
-}
-
-.ath_carousel_se_03 .ath_round_icon_img i {
-    font-size: 55px;
-    color: 
-#a5ca34;
-
-}
-
-.ath_carousel_se_03 .btn-primary {
-    background: 
-#a5ca34;
-    border-color: 
-#a5ca34;
-}
-
-.ath_carousel_se_03 .btn-primary:hover,
-.ath_carousel_se_03 .btn-primary:focus,
-.ath_carousel_se_03 .btn-primary:active {
-    background: 
-#708e15;
 }

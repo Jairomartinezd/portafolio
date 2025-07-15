@@ -9,6 +9,30 @@ import iconCelGPS from '../assets/img/icon2.png';
 import imgConocenos1 from '../assets/img/img1.webp';
 import imgConocenos2 from '../assets/img/img4.webp';
 
+/* Imagenes Servicios */
+import vehiculos from '../assets/img/services/carrusel/vehiculo.jpg';
+import flotas from '../assets/img/services/carrusel/flota.jpg';
+import motos from '../assets/img/services/carrusel/moto.jpg';
+import smartphones from '../assets/img/services/carrusel/smartphone.jpg';
+import mascotas from '../assets/img/services/carrusel/mascota.jpg';
+import personal from '../assets/img/services/carrusel/personal.jpg';
+import embarcaciones from '../assets/img/services/carrusel/embarcacion.jpg';
+import maquinaria from '../assets/img/services/carrusel/maquinaria.jpg';
+import containers from '../assets/img/services/carrusel/containers.jpg';
+import tanquesEstacionarios from '../assets/img/services/carrusel/tanques.jpg';
+
+/* Imagenes Modal Servicios */
+import vehiculosModal from '../assets/img/services/vehiculo.jpg';
+import flotasModal from '../assets/img/services/flota.jpg';
+import motosModal from '../assets/img/services/moto.jpg';
+import smartphonesModal from '../assets/img/services/smartphone.jpg';
+import mascotasModal from '../assets/img/services/mascota.jpg';
+import personaModal from '../assets/img/services/personal.jpg';
+import embarcacionesModal from '../assets/img/services/embarcacion.jpg';
+import maquinariaModal from '../assets/img/services/maquinaria.jpg';
+import containersModal from '../assets/img/services/containers.jpg';
+import tanquesEstacionariosModal from '../assets/img/services/tanques.jpg';
+
 /* Imagenes Borrador */
 import portfolio1 from '../assets/img/imgs/portfolio/1.jpg';
 import portfolio2 from '../assets/img/imgs/portfolio/2.jpg';
@@ -107,166 +131,163 @@ import CloseButton from '../assets/img/imgs/close-icon.svg';
                     <h3 class="section-subheading text-muted">Ubicaci&oacute;n y Rastreo en Tiempo Real</h3>
                 </div>
                 <div class="row">
-                    <div class="owl-carousel owl-theme">
-                        <div class="item">
-                            <!-- Portfolio item 1 -->
-                            <div class="servicios-item">
-                                <a class="servicios-link" data-bs-toggle="modal" href="#portfolioModal1">
-                                    <div class="servicios-hover">
-                                        <div class="servicios-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                    </div>
-                                    <img class="img-fluid" src={portfolio1.src} alt="..." />
-                                </a>
-                                <div class="servicios-caption">
-                                    <div class="servicios-caption-heading">Threads</div>
-                                    <div class="servicios-caption-subheading text-muted">Illustration</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="col-lg-4 col-sm-6 mb-4">
-                                <!-- Portfolio item 2 -->
+                    <div class="col-md-9">
+                        <div class="owl-carousel owl-theme">
+                            <div class="item">
+                                <!-- Portfolio item 1 -->
                                 <div class="servicios-item">
-                                    <a class="servicios-link" data-bs-toggle="modal" href="#portfolioModal2">
+                                    <a class="servicios-link" data-bs-toggle="modal" href="#vehiculos">
                                         <div class="servicios-hover">
                                             <div class="servicios-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                         </div>
-                                        <img class="img-fluid" src={portfolio2.src} alt="..." />
+                                        <img class="img-fluid" src={vehiculos.src} alt="..." />
                                     </a>
                                     <div class="servicios-caption">
-                                        <div class="servicios-caption-heading">Explore</div>
-                                        <div class="servicios-caption-subheading text-muted">Graphic Design</div>
+                                        <div class="servicios-caption-heading tituloServicios">Veh&iacute;culos</div>
+                                        <div class="servicios-caption-subheading text-muted resumenServicio">Asegura T&uacute; tranquilidad en cada kil&oacute;metro recorrido</div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="item">
-                            <div class="col-lg-4 col-sm-6 mb-4">
+                            <div class="item">
+                                <!-- Portfolio item 2 -->
+                                <div class="servicios-item">
+                                    <a class="servicios-link" data-bs-toggle="modal" href="#flotas">
+                                        <div class="servicios-hover">
+                                            <div class="servicios-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                        </div>
+                                        <img class="img-fluid" src={flotas.src} alt="..." />
+                                    </a>
+                                    <div class="servicios-caption">
+                                        <div class="servicios-caption-heading tituloServicios">Flotas</div>
+                                        <div class="servicios-caption-subheading text-muted resumenServicio">Transforma la gesti&oacute;n de tu flota mientras garantizas su seguridad</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
                                 <!-- Portfolio item 3 -->
                                 <div class="servicios-item">
                                     <a class="servicios-link" data-bs-toggle="modal" href="#portfolioModal3">
                                         <div class="servicios-hover">
                                             <div class="servicios-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                         </div>
-                                        <img class="img-fluid" src={portfolio3.src} alt="..." />
+                                        <img class="img-fluid" src={motos.src} alt="..." />
                                     </a>
                                     <div class="servicios-caption">
-                                        <div class="servicios-caption-heading">Finish</div>
-                                        <div class="servicios-caption-subheading text-muted">Identity</div>
+                                        <div class="servicios-caption-heading tituloServicios">Motos</div>
+                                        <div class="servicios-caption-subheading text-muted resumenServicio">Recupera la calma vigilando tu moto en tiempo real</div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="item">
-                            <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                            <div class="item">
                                 <!-- Portfolio item 4 -->
                                 <div class="servicios-item">
                                     <a class="servicios-link" data-bs-toggle="modal" href="#portfolioModal4">
                                         <div class="servicios-hover">
                                             <div class="servicios-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                         </div>
-                                        <img class="img-fluid" src={portfolio4.src} alt="..." />
+                                        <img class="img-fluid" src={smartphones.src} alt="..." />
                                     </a>
                                     <div class="servicios-caption">
-                                        <div class="servicios-caption-heading">Lines</div>
-                                        <div class="servicios-caption-subheading text-muted">Branding</div>
+                                        <div class="servicios-caption-heading tituloServicios">Smartphones</div>
+                                        <div class="servicios-caption-subheading text-muted resumenServicio">Protege t&uacute; mundo con rastreo satelital para smartphones</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <!-- Portfolio item 5 -->
+                                <div class="servicios-item">
+                                    <a class="servicios-link" data-bs-toggle="modal" href="#portfolioModal5">
+                                        <div class="servicios-hover">
+                                            <div class="servicios-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                        </div>
+                                        <img class="img-fluid" src={mascotas.src} alt="..." />
+                                    </a>
+                                    <div class="servicios-caption">
+                                        <div class="servicios-caption-heading tituloServicios">Mascotas</div>
+                                        <div class="servicios-caption-subheading text-muted resumenServicio">Localiza a tus peludos con monitoreo remoto</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <!-- Portfolio item 6 -->
+                                <div class="servicios-item">
+                                    <a class="servicios-link" data-bs-toggle="modal" href="#portfolioModal6">
+                                        <div class="servicios-hover">
+                                            <div class="servicios-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                        </div>
+                                        <img class="img-fluid" src={personal.src} alt="..." />
+                                    </a>
+                                    <div class="servicios-caption">
+                                        <div class="servicios-caption-heading tituloServicios">Personal</div>
+                                        <div class="servicios-caption-subheading text-muted resumenServicio">Mant&eacute;n a los m&aacute;s peque&ntilde;os siempre a la vista</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <!-- Portfolio item 7 -->
+                                <div class="servicios-item">
+                                    <a class="servicios-link" data-bs-toggle="modal" href="#portfolioModal1">
+                                        <div class="servicios-hover">
+                                            <div class="servicios-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                        </div>
+                                        <img class="img-fluid" src={embarcaciones.src} alt="..." />
+                                    </a>
+                                    <div class="servicios-caption">
+                                        <div class="servicios-caption-heading tituloServicios">Embarcaciones</div>
+                                        <div class="servicios-caption-subheading text-muted resumenServicio">Navegue sin miedo</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <!-- Portfolio item 8 -->
+                                <div class="servicios-item">
+                                    <a class="servicios-link" data-bs-toggle="modal" href="#portfolioModal2">
+                                        <div class="servicios-hover">
+                                            <div class="servicios-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                        </div>
+                                        <img class="img-fluid" src={maquinaria.src} alt="..." />
+                                    </a>
+                                    <div class="servicios-caption">
+                                        <div class="servicios-caption-heading tituloServicios">Maquinarias</div>
+                                        <div class="servicios-caption-subheading text-muted resumenServicio">Protege t&uacute; inversi&oacute;n</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <!-- Portfolio item 9 -->
+                                <div class="servicios-item">
+                                    <a class="servicios-link" data-bs-toggle="modal" href="#portfolioModal3">
+                                        <div class="servicios-hover">
+                                            <div class="servicios-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                        </div>
+                                        <img class="img-fluid" src={containers.src} alt="..." />
+                                    </a>
+                                    <div class="servicios-caption">
+                                        <div class="servicios-caption-heading tituloServicios">Containers</div>
+                                        <div class="servicios-caption-subheading text-muted resumenServicio">Rastrea tus paquetes de principio a fin</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <!-- Portfolio item 4 -->
+                                <div class="servicios-item">
+                                    <a class="servicios-link" data-bs-toggle="modal" href="#portfolioModal4">
+                                        <div class="servicios-hover">
+                                            <div class="servicios-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                        </div>
+                                        <img class="img-fluid" src={tanquesEstacionarios.src} alt="..." />
+                                    </a>
+                                    <div class="servicios-caption">
+                                        <div class="servicios-caption-heading tituloServiciosLargo">Tanques Estacionarios</div>
+                                        <div class="servicios-caption-subheading text-muted resumenServicio">Controla tus tanques con nuestra ayuda telem&aacute;tica</div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-
-                    <div class="col-lg-4 col-sm-6 mb-4">
-                        <!-- Portfolio item 1 -->
-                        <div class="servicios-item">
-                            <a class="servicios-link" data-bs-toggle="modal" href="#portfolioModal1">
-                                <div class="servicios-hover">
-                                    <div class="servicios-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src={portfolio1.src} alt="..." />
-                            </a>
-                            <div class="servicios-caption">
-                                <div class="servicios-caption-heading">Threads</div>
-                                <div class="servicios-caption-subheading text-muted">Illustration</div>
-                            </div>
-                        </div>
+                    <div class="col-md-3">
+                        <p class="textoJustificado">Nuestra moderna plataforma te brinda una gama de funciones que podr&aacute;s utilizar de una manera f&aacute;cil y sencilla, ingresando desde una PC o un dispositivo m&oacute;vil descargando nuestra aplicaci&oacute;n.</p>
                     </div>
-                    <div class="col-lg-4 col-sm-6 mb-4">
-                        <!-- Portfolio item 2 -->
-                        <div class="servicios-item">
-                            <a class="servicios-link" data-bs-toggle="modal" href="#portfolioModal2">
-                                <div class="servicios-hover">
-                                    <div class="servicios-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src={portfolio2.src} alt="..." />
-                            </a>
-                            <div class="servicios-caption">
-                                <div class="servicios-caption-heading">Explore</div>
-                                <div class="servicios-caption-subheading text-muted">Graphic Design</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-4">
-                        <!-- Portfolio item 3 -->
-                        <div class="servicios-item">
-                            <a class="servicios-link" data-bs-toggle="modal" href="#portfolioModal3">
-                                <div class="servicios-hover">
-                                    <div class="servicios-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src={portfolio3.src} alt="..." />
-                            </a>
-                            <div class="servicios-caption">
-                                <div class="servicios-caption-heading">Finish</div>
-                                <div class="servicios-caption-subheading text-muted">Identity</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-                        <!-- Portfolio item 4 -->
-                        <div class="servicios-item">
-                            <a class="servicios-link" data-bs-toggle="modal" href="#portfolioModal4">
-                                <div class="servicios-hover">
-                                    <div class="servicios-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src={portfolio4.src} alt="..." />
-                            </a>
-                            <div class="servicios-caption">
-                                <div class="servicios-caption-heading">Lines</div>
-                                <div class="servicios-caption-subheading text-muted">Branding</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
-                        <!-- Portfolio item 5 -->
-                        <div class="servicios-item">
-                            <a class="servicios-link" data-bs-toggle="modal" href="#portfolioModal5">
-                                <div class="servicios-hover">
-                                    <div class="servicios-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src={portfolio5.src} alt="..." />
-                            </a>
-                            <div class="servicios-caption">
-                                <div class="servicios-caption-heading">Southwest</div>
-                                <div class="servicios-caption-subheading text-muted">Website Design</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <!-- Portfolio item 6 -->
-                        <div class="servicios-item">
-                            <a class="servicios-link" data-bs-toggle="modal" href="#portfolioModal6">
-                                <div class="servicios-hover">
-                                    <div class="servicios-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src={portfolio6.src} alt="..." />
-                            </a>
-                            <div class="servicios-caption">
-                                <div class="servicios-caption-heading">Window</div>
-                                <div class="servicios-caption-subheading text-muted">Photography</div>
-                            </div>
-                        </div>
-                    </div>
-                    
                 </div>
             </div>
         </section>
@@ -480,6 +501,133 @@ import CloseButton from '../assets/img/imgs/close-icon.svg';
                 <div class="modal-footer">
                     <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Volver al Website</button>
                 </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Services Modals -->
+         <div class="portfolio-modal modal fade" id="vehiculos" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src={CloseButton.src} alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details -->
+                                    <h2 class="text-uppercase">Veh&iacute;culos</h2>
+                                    <p class="item-intro text-muted">Asegura t&uacute; tranquilidad en cada kil&oacute;metro recorrido</p>
+                                    <img class="img-fluid d-block mx-auto" src={vehiculosModal.src} alt="..." />
+                                    <p class="textoJustificado">El servicio satelital <strong>INTRACKER GPS</strong> est&aacute; diseñado especialmente para proporcionarte serenidad al estar siempre informado sobre el estado y ubicaci&oacute;n de tus veh&iacute;culos. Protege tus activos y cuida a cada uno de los miembros de tu familia cuando est&aacute;n al volante, monitoreando cada movimiento con nuestra tecnolog&iacute;a avanzada a tu disposici&oacute;n.</p>
+                                    <h4>¿C&oacute;mo logramos que tengas el control en tus manos?</h4>&nbsp;
+                                    <ul class="list-inline textoJustificado">
+                                        <li>
+                                            <span class="colorInTracker1">
+                                                <i class="fa-solid fa-check"></i>
+                                            </span>
+                                            <span><strong>Ubicaci&oacute;n exacta en tiempo real:</strong> Conoce la ubicaci&oacute;n de tu veh&iacute;culo con actualizaciones cada 10 segundos.</span>
+                                        </li>
+                                        <li>
+                                            <span class="colorInTracker1">
+                                                <i class="fa-solid fa-check"></i>
+                                            </span>
+                                            <span><strong>Control remoto del motor:</strong> Apaga o enciende el motor a distancia en caso de emergencia.</span>
+                                        </li>
+                                        <li>
+                                            <span class="colorInTracker1">
+                                                <i class="fa-solid fa-check"></i>
+                                            </span>
+                                            <span><strong>GeoCercas personalizadas:</strong> Define zonas seguras y recibe alertas si se cruzan.</span>
+                                        </li>
+                                        <li>
+                                            <span class="colorInTracker1">
+                                                <i class="fa-solid fa-check"></i>
+                                            </span>
+                                            <span><strong>Notificaciones instant&aacute;neas:</strong> Mantente informado en tiempo real y no te pierdas ning&uacute;n detalle.</span>
+                                        </li>
+                                    </ul>
+                                    <em><p class="textoJustificado">Invierte en tu tranquilidad en unos segundos:</p></em>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fa-brands fa-whatsapp"></i>
+                                        <span>Adquiere el Servicio</span>
+                                    </button>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fa-solid fa-rotate-left"></i>
+                                        Volver al Inicio
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="portfolio-modal modal fade" id="flotas" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src={CloseButton.src} alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details -->
+                                    <h2 class="text-uppercase">Flotas</h2>
+                                    <p class="item-intro text-muted">Transforma la gesti&oacute;n de tu flota mientras garantizas su seguridad</p>
+                                    <img class="img-fluid d-block mx-auto" src={flotasModal.src} alt="..." />
+                                    <p class="textoJustificado">El servicio satelital <strong>INTRACKER GPS</strong> para flotas y veh&iacute;culos de carga pesada no solo asegura la protecci&oacute;n de tus activos m&aacute;s valiosos. Gracias al monitoreo constante en tiempo real, podr&aacute;s mejorar la gesti&oacute;n de tu flota, incrementar la vida &uacute;til de tus vehículos y ahorrar dinero en reparaciones inesperadas.</p>
+                                    <h4>¿C&oacute;mo logramos que tengas el control en tus manos?</h4>&nbsp;
+                                    <ul class="list-inline textoJustificado">
+                                        <li>
+                                            <span class="colorInTracker1">
+                                                <i class="fa-solid fa-check"></i>
+                                            </span>
+                                            <span><strong>Acceso a informaci&oacute;n detallada:</strong> Obt&eacute;n datos precisos sobre cada punto del trayecto.</span>
+                                        </li>
+                                        <li>
+                                            <span class="colorInTracker1">
+                                                <i class="fa-solid fa-check"></i>
+                                            </span>
+                                            <span><strong>Localizaci&oacute;n en tiempo real:</strong> Visualiza toda tu flota en una sola pantalla desde tu smartphone o pc.</span>
+                                        </li>
+                                        <li>
+                                            <span class="colorInTracker1">
+                                                <i class="fa-solid fa-check"></i>
+                                            </span>
+                                            <span><strong>Eficiencia operativa:</strong> Mejora dráticamente los tiempos de entrega y la eficiencia operativa.</span>
+                                        </li>
+                                        <li>
+                                            <span class="colorInTracker1">
+                                                <i class="fa-solid fa-check"></i>
+                                            </span>
+                                            <span><strong>Geo-cercas personalizadas:</strong> Configura y recibe alertas de zonas seguras.</span>
+                                        </li>
+                                        <li>
+                                            <span class="colorInTracker1">
+                                                <i class="fa-solid fa-check"></i>
+                                            </span>
+                                            <span><strong>Incremento de productividad:</strong> Elimina paradas y recorridos innecesarios.</span>
+                                        </li>
+                                        <li>
+                                            <span class="colorInTracker1">
+                                                <i class="fa-solid fa-check"></i>
+                                            </span>
+                                            <span><strong>Recuperación r&aacute;pida:</strong> Apaga el motor de forma remota y recupera el veh&iacute;culo de inmediato en caso de robo.</span>
+                                        </li>
+                                    </ul>
+                                    <em><p class="textoJustificado">Invierte en la seguridad y eficiencia de tu flota con <strong>INTRACKER GPS</strong> y lleva la productividad de tu empresa al siguiente nivel.</p></em>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fa-brands fa-whatsapp"></i>
+                                        <span>Adquiere el Servicio</span>
+                                    </button>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fa-solid fa-rotate-left"></i>
+                                        Volver al Inicio
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
