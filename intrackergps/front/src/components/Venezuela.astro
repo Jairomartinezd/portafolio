@@ -27,19 +27,27 @@ import flotasModal from '../assets/img/services/flota.jpg';
 import motosModal from '../assets/img/services/moto.jpg';
 import smartphonesModal from '../assets/img/services/smartphone.jpg';
 import mascotasModal from '../assets/img/services/mascota.jpg';
-import personaModal from '../assets/img/services/personal.jpg';
+import personalModal from '../assets/img/services/personal.jpg';
 import embarcacionesModal from '../assets/img/services/embarcacion.jpg';
 import maquinariaModal from '../assets/img/services/maquinaria.jpg';
 import containersModal from '../assets/img/services/containers.jpg';
 import tanquesEstacionariosModal from '../assets/img/services/tanques.jpg';
 
+/* Imagenes Dispositivos */
+import dispositivoGPS from '../assets/img/devices/dispositivo.jpg';
+import iridium from '../assets/img/devices/iridium.jpg';
+import portatil from '../assets/img/devices/portatil.jpg';
+import sensorCombustible from '../assets/img/devices/sensor_combustible.jpg';
+import solar from '../assets/img/devices/solar.jpg';
+import padlock from '../assets/img/devices/padlock.jpg';
+
 /* Imagenes Borrador */
-import portfolio1 from '../assets/img/imgs/portfolio/1.jpg';
+/* import portfolio1 from '../assets/img/imgs/portfolio/1.jpg';
 import portfolio2 from '../assets/img/imgs/portfolio/2.jpg';
 import portfolio3 from '../assets/img/imgs/portfolio/3.jpg';
 import portfolio4 from '../assets/img/imgs/portfolio/4.jpg';
 import portfolio5 from '../assets/img/imgs/portfolio/5.jpg';
-import portfolio6 from '../assets/img/imgs/portfolio/6.jpg';
+import portfolio6 from '../assets/img/imgs/portfolio/6.jpg'; */
 
 import about1 from '../assets/img/imgs/about/1.jpg';
 import about2 from '../assets/img/imgs/about/2.jpg';
@@ -134,7 +142,6 @@ import CloseButton from '../assets/img/imgs/close-icon.svg';
                     <div class="col-md-9">
                         <div class="owl-carousel owl-theme">
                             <div class="item">
-                                <!-- Portfolio item 1 -->
                                 <div class="servicios-item">
                                     <a class="servicios-link" data-bs-toggle="modal" href="#vehiculos">
                                         <div class="servicios-hover">
@@ -149,7 +156,6 @@ import CloseButton from '../assets/img/imgs/close-icon.svg';
                                 </div>
                             </div>
                             <div class="item">
-                                <!-- Portfolio item 2 -->
                                 <div class="servicios-item">
                                     <a class="servicios-link" data-bs-toggle="modal" href="#flotas">
                                         <div class="servicios-hover">
@@ -164,9 +170,8 @@ import CloseButton from '../assets/img/imgs/close-icon.svg';
                                 </div>
                             </div>
                             <div class="item">
-                                <!-- Portfolio item 3 -->
                                 <div class="servicios-item">
-                                    <a class="servicios-link" data-bs-toggle="modal" href="#portfolioModal3">
+                                    <a class="servicios-link" data-bs-toggle="modal" href="#motos">
                                         <div class="servicios-hover">
                                             <div class="servicios-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                         </div>
@@ -179,9 +184,8 @@ import CloseButton from '../assets/img/imgs/close-icon.svg';
                                 </div>
                             </div>
                             <div class="item">
-                                <!-- Portfolio item 4 -->
                                 <div class="servicios-item">
-                                    <a class="servicios-link" data-bs-toggle="modal" href="#portfolioModal4">
+                                    <a class="servicios-link" data-bs-toggle="modal" href="#smartphones">
                                         <div class="servicios-hover">
                                             <div class="servicios-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                         </div>
@@ -194,9 +198,8 @@ import CloseButton from '../assets/img/imgs/close-icon.svg';
                                 </div>
                             </div>
                             <div class="item">
-                                <!-- Portfolio item 5 -->
                                 <div class="servicios-item">
-                                    <a class="servicios-link" data-bs-toggle="modal" href="#portfolioModal5">
+                                    <a class="servicios-link" data-bs-toggle="modal" href="#mascotas">
                                         <div class="servicios-hover">
                                             <div class="servicios-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                         </div>
@@ -209,9 +212,8 @@ import CloseButton from '../assets/img/imgs/close-icon.svg';
                                 </div>
                             </div>
                             <div class="item">
-                                <!-- Portfolio item 6 -->
                                 <div class="servicios-item">
-                                    <a class="servicios-link" data-bs-toggle="modal" href="#portfolioModal6">
+                                    <a class="servicios-link" data-bs-toggle="modal" href="#personal">
                                         <div class="servicios-hover">
                                             <div class="servicios-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                         </div>
@@ -224,9 +226,8 @@ import CloseButton from '../assets/img/imgs/close-icon.svg';
                                 </div>
                             </div>
                             <div class="item">
-                                <!-- Portfolio item 7 -->
                                 <div class="servicios-item">
-                                    <a class="servicios-link" data-bs-toggle="modal" href="#portfolioModal1">
+                                    <a class="servicios-link" data-bs-toggle="modal" href="#embarcaciones">
                                         <div class="servicios-hover">
                                             <div class="servicios-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                         </div>
@@ -239,9 +240,8 @@ import CloseButton from '../assets/img/imgs/close-icon.svg';
                                 </div>
                             </div>
                             <div class="item">
-                                <!-- Portfolio item 8 -->
                                 <div class="servicios-item">
-                                    <a class="servicios-link" data-bs-toggle="modal" href="#portfolioModal2">
+                                    <a class="servicios-link" data-bs-toggle="modal" href="#maquinarias">
                                         <div class="servicios-hover">
                                             <div class="servicios-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                         </div>
@@ -254,9 +254,8 @@ import CloseButton from '../assets/img/imgs/close-icon.svg';
                                 </div>
                             </div>
                             <div class="item">
-                                <!-- Portfolio item 9 -->
                                 <div class="servicios-item">
-                                    <a class="servicios-link" data-bs-toggle="modal" href="#portfolioModal3">
+                                    <a class="servicios-link" data-bs-toggle="modal" href="#containers">
                                         <div class="servicios-hover">
                                             <div class="servicios-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                         </div>
@@ -269,9 +268,8 @@ import CloseButton from '../assets/img/imgs/close-icon.svg';
                                 </div>
                             </div>
                             <div class="item">
-                                <!-- Portfolio item 4 -->
                                 <div class="servicios-item">
-                                    <a class="servicios-link" data-bs-toggle="modal" href="#portfolioModal4">
+                                    <a class="servicios-link" data-bs-toggle="modal" href="#tanquesEstacionarios">
                                         <div class="servicios-hover">
                                             <div class="servicios-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                         </div>
@@ -291,6 +289,97 @@ import CloseButton from '../assets/img/imgs/close-icon.svg';
                 </div>
             </div>
         </section>
+
+        <!-- Dispositivos InTracker -->
+        <section class="page-section bg-light" id="dispositivos">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Dispositivos</h2>
+                    <h3 class="section-subheading text-muted">Monitorea y Rastrea con Precisi&oacute;n</h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="dispositivos-item">
+                            <a class="dispositivos-link" data-bs-toggle="modal" href="#dispositivoGPS">
+                                <div class="dispositivos-hover">
+                                    <div class="dispositivos-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src={dispositivoGPS.src} alt="..." />
+                            </a>
+                            <div class="dispositivos-caption">
+                                <div class="dispositivos-caption-heading">Dispositivo GPS</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="dispositivos-item">
+                            <a class="dispositivos-link" data-bs-toggle="modal" href="#dispositivosModal2">
+                                <div class="dispositivos-hover">
+                                    <div class="dispositivos-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src={iridium.src} alt="..." />
+                            </a>
+                            <div class="dispositivos-caption">
+                                <div class="dispositivos-caption-heading">GPS Iridium</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="dispositivos-item">
+                            <a class="dispositivos-link" data-bs-toggle="modal" href="#dispositivosModal3">
+                                <div class="dispositivos-hover">
+                                    <div class="dispositivos-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src={portatil.src} alt="..." />
+                            </a>
+                            <div class="dispositivos-caption">
+                                <div class="dispositivos-caption-heading">GPS Port&aacute;til</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                        <div class="dispositivos-item">
+                            <a class="dispositivos-link" data-bs-toggle="modal" href="#dispositivosModal4">
+                                <div class="dispositivos-hover">
+                                    <div class="dispositivos-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src={sensorCombustible.src} alt="..." />
+                            </a>
+                            <div class="dispositivos-caption">
+                                <div class="dispositivos-caption-heading">Sensor de Combustible Capacitivo</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+                        <div class="dispositivos-item">
+                            <a class="dispositivos-link" data-bs-toggle="modal" href="#dispositivosModal5">
+                                <div class="dispositivos-hover">
+                                    <div class="dispositivos-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src={solar.src} alt="..." />
+                            </a>
+                            <div class="dispositivos-caption">
+                                <div class="dispositivos-caption-heading">GPS Solar</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="dispositivos-item">
+                            <a class="dispositivos-link" data-bs-toggle="modal" href="#dispositivosModal6">
+                                <div class="dispositivos-hover">
+                                    <div class="dispositivos-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src={padlock.src} alt="..." />
+                            </a>
+                            <div class="dispositivos-caption">
+                                <div class="dispositivos-caption-heading">GPS Padlock</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
 
         <!-- About -->
         <section class="page-section" id="about">
@@ -506,7 +595,7 @@ import CloseButton from '../assets/img/imgs/close-icon.svg';
         </div>
 
         <!-- Services Modals -->
-         <div class="portfolio-modal modal fade" id="vehiculos" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="portfolio-modal modal fade" id="vehiculos" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="close-modal" data-bs-dismiss="modal"><img src={CloseButton.src} alt="Close modal" /></div>
@@ -514,7 +603,6 @@ import CloseButton from '../assets/img/imgs/close-icon.svg';
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <div class="modal-body">
-                                    <!-- Project details -->
                                     <h2 class="text-uppercase">Veh&iacute;culos</h2>
                                     <p class="item-intro text-muted">Asegura t&uacute; tranquilidad en cada kil&oacute;metro recorrido</p>
                                     <img class="img-fluid d-block mx-auto" src={vehiculosModal.src} alt="..." />
@@ -571,7 +659,6 @@ import CloseButton from '../assets/img/imgs/close-icon.svg';
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <div class="modal-body">
-                                    <!-- Project details -->
                                     <h2 class="text-uppercase">Flotas</h2>
                                     <p class="item-intro text-muted">Transforma la gesti&oacute;n de tu flota mientras garantizas su seguridad</p>
                                     <img class="img-fluid d-block mx-auto" src={flotasModal.src} alt="..." />
@@ -632,9 +719,7 @@ import CloseButton from '../assets/img/imgs/close-icon.svg';
             </div>
         </div>
 
-        <!-- Portfolio Modals -->
-        <!-- Portfolio item 1 modal popup -->
-        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="portfolio-modal modal fade" id="motos" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="close-modal" data-bs-dismiss="modal"><img src={CloseButton.src} alt="Close modal" /></div>
@@ -642,24 +727,51 @@ import CloseButton from '../assets/img/imgs/close-icon.svg';
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <div class="modal-body">
-                                    <!-- Project details -->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src={portfolio1.src} alt="..." />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-inline">
+                                    <h2 class="text-uppercase">Motos</h2>
+                                    <p class="item-intro text-muted">Recupera la calma vigilando tu moto en tiempo real</p>
+                                    <img class="img-fluid d-block mx-auto" src={motosModal.src} alt="..." />
+                                    <p class="textoJustificado">El servicio satelital de <strong>INTRACKER GPS</strong> protege tu inversi&oacute;n a trav&eacute;s de un microdispositivo instalado en tu moto. Con acceso a nuestra plataforma digital podr&aacute;s conocer su localizaci&oacute;n exacta en tiempo real, prevenir robos y recobrar tu tranquilidad.</p>
+                                    <h4>¿C&oacute;mo logramos que tengas el control en tus manos?</h4>&nbsp;
+                                    <ul class="list-inline textoJustificado">
                                         <li>
-                                            <strong>Client:</strong>
-                                            Threads
+                                            <span class="colorInTracker1">
+                                                <i class="fa-solid fa-check"></i>
+                                            </span>
+                                            <span><strong>Ubicaci&oacute;n precisa en tiempo real:</strong> Visualiza la ubicaci&oacute;n de tu moto con actualizaciones cada 10 segundos.</span>
                                         </li>
                                         <li>
-                                            <strong>Category:</strong>
-                                            Illustration
+                                            <span class="colorInTracker1">
+                                                <i class="fa-solid fa-check"></i>
+                                            </span>
+                                            <span><strong>Control remoto del motor:</strong> Apaga el motor a distancia en caso de emergencia y recibe alertas de encendido y apagado.</span>
+                                        </li>
+                                        <li>
+                                            <span class="colorInTracker1">
+                                                <i class="fa-solid fa-check"></i>
+                                            </span>
+                                            <span><strong>Alertas de movimiento:</strong> Recibe notificaciones instant&aacute;neas de cualquier movimiento inesperado.</span>
+                                        </li>
+                                        <li>
+                                            <span class="colorInTracker1">
+                                                <i class="fa-solid fa-check"></i>
+                                            </span>
+                                            <span><strong>Seguridad t&eacute;cnica:</strong> Alerta de desconexi&oacute;n o fallas de la bater&iacute;a.</span>
+                                        </li>
+                                        <li>
+                                            <span class="colorInTracker1">
+                                                <i class="fa-solid fa-check"></i>
+                                            </span>
+                                            <span><strong>Control de velocidad:</strong> Notificaciones por exceso de velocidad.</span>
                                         </li>
                                     </ul>
+                                    <em><p class="textoJustificado">Invierte en la seguridad de tu motocicleta con <strong>INTRACKER GPS</strong> y mant&eacute;n tus activos siempre protegidos.</p></em>
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-xmark me-1"></i>
-                                        Close Project
+                                        <i class="fa-brands fa-whatsapp"></i>
+                                        <span>Adquiere el Servicio</span>
+                                    </button>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fa-solid fa-rotate-left"></i>
+                                        Volver al Inicio
                                     </button>
                                 </div>
                             </div>
@@ -668,8 +780,8 @@ import CloseButton from '../assets/img/imgs/close-icon.svg';
                 </div>
             </div>
         </div>
-        <!-- Portfolio item 2 modal popup -->
-        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+
+        <div class="portfolio-modal modal fade" id="smartphones" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="close-modal" data-bs-dismiss="modal"><img src={CloseButton.src} alt="Close modal" /></div>
@@ -677,24 +789,51 @@ import CloseButton from '../assets/img/imgs/close-icon.svg';
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <div class="modal-body">
-                                    <!-- Project details -->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src={portfolio2.src} alt="..." />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-inline">
+                                    <h2 class="text-uppercase">Smartphones</h2>
+                                    <p class="item-intro text-muted">Protege t&uacute; mundo con rastreo satelital para smartphones</p>
+                                    <img class="img-fluid d-block mx-auto" src={smartphonesModal.src} alt="..." />
+                                    <p class="textoJustificado">Perder tu smartphone es perder el acceso a tu mundo entero. El servicio satelital de <strong>INTRACKER GPS</strong> permite rastrear tu tel&eacute;fono en cuesti&oacute;n de minutos a trav&eacute;s de nuestra plataforma. La soluci&oacute;n ideal en caso de robos, hurtos, extrav&iacute;os, tel&eacute;fonos corporativos o incluso para conocer la ubicaci&oacute;n exacta de t&uacute;s seres queridos.</p>
+                                    <h4>¿C&oacute;mo te ayudamos a tener el control en tus manos?</h4>&nbsp;
+                                    <ul class="list-inline textoJustificado">
                                         <li>
-                                            <strong>Client:</strong>
-                                            Explore
+                                            <span class="colorInTracker1">
+                                                <i class="fa-solid fa-check"></i>
+                                            </span>
+                                            <span><strong>Ubicación geogr&aacute;fica en tiempo real:</strong> Visualiza la ubicaci&oacute;n de t&uacute; smartphone en mapas digitalizados.</span>
                                         </li>
                                         <li>
-                                            <strong>Category:</strong>
-                                            Graphic Design
+                                            <span class="colorInTracker1">
+                                                <i class="fa-solid fa-check"></i>
+                                            </span>
+                                            <span><strong>Actualizaci&oacute;n constante:</strong> Recibe actualizaciones de la posici&oacute;n cada 10 segundos.</span>
+                                        </li>
+                                        <li>
+                                            <span class="colorInTracker1">
+                                                <i class="fa-solid fa-check"></i>
+                                            </span>
+                                            <span><strong>Geo-Cercas personalizadas:</strong> Configura y recibe alertas de zonas seguras.</span>
+                                        </li>
+                                        <li>
+                                            <span class="colorInTracker1">
+                                                <i class="fa-solid fa-check"></i>
+                                            </span>
+                                            <span><strong>Alertas de movimiento:</strong> Notificaiones instant&aacute;neas de cualquier movimiento inesperado.</span>
+                                        </li>
+                                        <li>
+                                            <span class="colorInTracker1">
+                                                <i class="fa-solid fa-check"></i>
+                                            </span>
+                                            <span><strong>Alertas de entrada y salida de Geo-Cercas:</strong> Mantente informado sobre los desplazamientos de tu dispositivo.</span>
                                         </li>
                                     </ul>
+                                    <em><p class="textoJustificado">Protege tu mundo y mantente siempre conectado con <strong>INTRACKER GPS.</strong></p></em>
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-xmark me-1"></i>
-                                        Close Project
+                                        <i class="fa-brands fa-whatsapp"></i>
+                                        <span>Adquiere el Servicio</span>
+                                    </button>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fa-solid fa-rotate-left"></i>
+                                        Volver al Inicio
                                     </button>
                                 </div>
                             </div>
@@ -703,8 +842,8 @@ import CloseButton from '../assets/img/imgs/close-icon.svg';
                 </div>
             </div>
         </div>
-        <!-- Portfolio item 3 modal popup -->
-        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+
+        <div class="portfolio-modal modal fade" id="mascotas" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="close-modal" data-bs-dismiss="modal"><img src={CloseButton.src} alt="Close modal" /></div>
@@ -712,129 +851,39 @@ import CloseButton from '../assets/img/imgs/close-icon.svg';
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <div class="modal-body">
-                                    <!-- Project details -->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src={portfolio3.src} alt="..." />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-inline">
+                                    <h2 class="text-uppercase">Mascotas</h2>
+                                    <p class="item-intro text-muted">Localiza a tus peludos con monitoreo remoto</p>
+                                    <img class="img-fluid d-block mx-auto" src={mascotasModal.src} alt="..." />
+                                    <p class="textoJustificado">Con <strong>INTRACKER GPS</strong> nunca m&aacute;s tendr&aacute;s que preocuparte por la seguridad de t&uacute;s mascotas. Nuestro peque&ntilde;o y discreto dispositivo dise&ntilde;ado en forma de collar, te permite rastrear a tus mascotas en tiempo real. Si alguna vez se extrav&iacute;an, podr&aacute;s ubicarlos r&aacute;pidamente en un mapa digitalizado.</p>
+                                    <h4>¿C&oacute;mo te ayudamos a tener el control en tus manos?</h4>&nbsp;
+                                    <ul class="list-inline textoJustificado">
                                         <li>
-                                            <strong>Client:</strong>
-                                            Finish
+                                            <span class="colorInTracker1">
+                                                <i class="fa-solid fa-check"></i>
+                                            </span>
+                                            <span><strong>Ubicación geogr&aacute;fica en tiempo real:</strong> Visualiza la ubicaci&oacute;n de t&uacute; mascota en mapas digitalizados.</span>
                                         </li>
                                         <li>
-                                            <strong>Category:</strong>
-                                            Identity
+                                            <span class="colorInTracker1">
+                                                <i class="fa-solid fa-check"></i>
+                                            </span>
+                                            <span><strong>Actualizaci&oacute;n constante:</strong> Recibe actualizaciones de la posici&oacute;n de la mascota cada minuto.</span>
+                                        </li>
+                                        <li>
+                                            <span class="colorInTracker1">
+                                                <i class="fa-solid fa-check"></i>
+                                            </span>
+                                            <span><strong>Geo-Cercas personalizadas:</strong> Configura zonas seguras y recibe alertas si t&uacute; mascota las cruza.</span>
                                         </li>
                                     </ul>
+                                    <em><p class="textoJustificado">Con <strong>INTRACKER GPS</strong>, puedes salir de casa siempre que necesites, con la tranquilidad de saber que tus mascotas están a salvo.</p></em>
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-xmark me-1"></i>
-                                        Close Project
+                                        <i class="fa-brands fa-whatsapp"></i>
+                                        <span>Adquiere el Servicio</span>
                                     </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio item 4 modal popup -->
-        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src={CloseButton.src} alt="Close modal" /></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-                                    <!-- Project details -->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src={portfolio4.src} alt="..." />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-inline">
-                                        <li>
-                                            <strong>Client:</strong>
-                                            Lines
-                                        </li>
-                                        <li>
-                                            <strong>Category:</strong>
-                                            Branding
-                                        </li>
-                                    </ul>
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-xmark me-1"></i>
-                                        Close Project
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio item 5 modal popup -->
-        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src={CloseButton.src} alt="Close modal" /></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-                                    <!-- Project details -->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src={portfolio5.src} alt="..." />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-inline">
-                                        <li>
-                                            <strong>Client:</strong>
-                                            Southwest
-                                        </li>
-                                        <li>
-                                            <strong>Category:</strong>
-                                            Website Design
-                                        </li>
-                                    </ul>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-xmark me-1"></i>
-                                        Close Project
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio item 6 modal popup -->
-        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src={CloseButton.src} alt="Close modal" /></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-                                    <!-- Project details -->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src={portfolio6.src} alt="..." />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-inline">
-                                        <li>
-                                            <strong>Client:</strong>
-                                            Window
-                                        </li>
-                                        <li>
-                                            <strong>Category:</strong>
-                                            Photography
-                                        </li>
-                                    </ul>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-xmark me-1"></i>
-                                        Close Project
+                                        <i class="fa-solid fa-rotate-left"></i>
+                                        Volver al Inicio
                                     </button>
                                 </div>
                             </div>
@@ -844,4 +893,374 @@ import CloseButton from '../assets/img/imgs/close-icon.svg';
             </div>
         </div>
         
+        <div class="portfolio-modal modal fade" id="personal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src={CloseButton.src} alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <h2 class="text-uppercase">Personal</h2>
+                                    <p class="item-intro text-muted">Mant&eacute;n a los m&aacute;s peque&ntilde;os siempre a la vista con rastreo satelital</p>
+                                    <img class="img-fluid d-block mx-auto" src={personalModal.src} alt="..." />
+                                    <p class="textoJustificado">¿Est&aacute;s seguro de que no puedes estar en dos lugares a la vez? El servicio de <strong>INTRACKER GPS</strong> para personas te har&aacute; reconsiderarlo. Dise&ntilde;ado para la localizaci&oacute;n y asistencia de personas, nuestro dispositivo se convertir&aacute; en tus ojos cuando est&eacute;s fuera de casa. Ancianos, ni&ntilde;os o personas que requieran atenci&oacute;n especial podr&aacute;n llevar este compacto dispositivo en su cartera, bolsillo o incluso en la ropa. Podr&aacute;s mantener a tu familia segura y localizada en todo momento.</p>
+                                    <h4>¿C&oacute;mo te ayudamos a tener el control en tus manos?</h4>&nbsp;
+                                    <ul class="list-inline textoJustificado">
+                                        <li>
+                                            <span class="colorInTracker1">
+                                                <i class="fa-solid fa-check"></i>
+                                            </span>
+                                            <span><strong>Ubicación geogr&aacute;fica en tiempo real:</strong> Conoce la ubicaci&oacute;n exacta de tus seres queridos con actualizaciones cada minuto.</span>
+                                        </li>
+                                        <li>
+                                            <span class="colorInTracker1">
+                                                <i class="fa-solid fa-check"></i>
+                                            </span>
+                                            <span><strong>Bot&oacute;n SOS:</strong> Env&iacute;o de solicitudes de ayuda por correo electr&oacute;nico.</span>
+                                        </li>
+                                        <li>
+                                            <span class="colorInTracker1">
+                                                <i class="fa-solid fa-check"></i>
+                                            </span>
+                                            <span><strong>F&aacute;cil de llevar:</strong> Dise&ntilde;ado para ser port&aacute;til y discreto, se puede llevar en cualquier lugar.</span>
+                                        </li>
+                                    </ul>
+                                    <em><p class="textoJustificado">No dejes la seguridad de quienes amas al azar, protege lo m&aacute;s preciado con <strong>INTRACKER GPS</strong>.</p></em>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fa-brands fa-whatsapp"></i>
+                                        <span>Adquiere el Servicio</span>
+                                    </button>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fa-solid fa-rotate-left"></i>
+                                        Volver al Inicio
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+         <div class="portfolio-modal modal fade" id="embarcaciones" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src={CloseButton.src} alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <h2 class="text-uppercase">Embarcaciones</h2>
+                                    <p class="item-intro text-muted">Navegue Sin Miedo</p>
+                                    <img class="img-fluid d-block mx-auto" src={embarcacionesModal.src} alt="..." />
+                                    <p class="textoJustificado">Gracias a la instalaci&oacute;n de un discreto dispositivo impermeable y adecuado para toda clase de condiciones clim&aacute;ticas, podr&aacute;s conocer la ubicaci&oacute;n exacta de tu lancha o yate desde una aplicaci&oacute;n. Adem&aacute;s, si t&uacute; embarcaci&oacute;n pasa largas temporadas fuera de tu alcance, podr&aacute;s chequear en todo momento su historial de ubicaci&oacute;n y verificar que se encuentre justo donde debe estar, previniendo robos o hurtos.</p>
+                                    <h4>¿C&oacute;mo te ayudamos a tener el control en tus manos?</h4>&nbsp;
+                                    <ul class="list-inline textoJustificado">
+                                        <li>
+                                            <span class="colorInTracker1">
+                                                <i class="fa-solid fa-check"></i>
+                                            </span>
+                                            <span><strong>Ubicación geogr&aacute;fica en tiempo real:</strong> Visualiza la ubicaci&oacute;n de t&uacute; embarcaci&oacute;n con actualizaciones constantes.</span>
+                                        </li>
+                                        <li>
+                                            <span class="colorInTracker1">
+                                                <i class="fa-solid fa-check"></i>
+                                            </span>
+                                            <span><strong>Geocercas personalizadas:</strong> Configura zonas virtuales seguras y recibe alertas si t&uacute; embarcaci&oacute;n las cruza.</span>
+                                        </li>
+                                        <li>
+                                            <span class="colorInTracker1">
+                                                <i class="fa-solid fa-check"></i>
+                                            </span>
+                                            <span><strong>Alertas de encendido/apagado:</strong> Mantente informado cada vez que t&uacute; embarcaci&oacute;n es encendida o apagada.</span>
+                                        </li>
+                                        <li>
+                                            <span class="colorInTracker1">
+                                                <i class="fa-solid fa-check"></i>
+                                            </span>
+                                            <span><strong>Bot&oacute;n SOS:</strong> Env&iacute;a solicitudes de ayuda por correo electr&oacute;nico ante una emergencia en altamar.</span>
+                                        </li>
+                                        <li>
+                                            <span class="colorInTracker1">
+                                                <i class="fa-solid fa-check"></i>
+                                            </span>
+                                            <span><strong>Impermeable y Resistente:</strong> Dise&ntilde;ado para funcionar en las condiciones clim&aacute;ticas m&aacute;s extremas.</span>
+                                        </li>
+                                        <li>
+                                            <span class="colorInTracker1">
+                                                <i class="fa-solid fa-check"></i>
+                                            </span>
+                                            <span><strong>Historial de datos:</strong> Consulta el historial de ubicaciones para analizar patrones de uso y ayudarte a tomar decisiones estrat&eacute;gicas.</span>
+                                        </li>
+                                    </ul>
+                                    <em><p class="textoJustificado">Disfruta de tus actividades n&aacute;uticas con la certeza de que t&uacute; yate o lancha estar&aacute; siempre protegida. Navega tranquilamente con <strong>INTRACKER GPS</strong>.</p></em>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fa-brands fa-whatsapp"></i>
+                                        <span>Adquiere el Servicio</span>
+                                    </button>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fa-solid fa-rotate-left"></i>
+                                        Volver al Inicio
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="portfolio-modal modal fade" id="maquinarias" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src={CloseButton.src} alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <h2 class="text-uppercase">Maquinarias</h2>
+                                    <p class="item-intro text-muted">Protege t&uacute; inversi&oacute;n: Vigila t&uacute; maquinaria desde cualquier lugar.</p>
+                                    <img class="img-fluid d-block mx-auto" src={maquinariaModal.src} alt="..." />
+                                    <p class="textoJustificado">¿Te preocupa el robo o el uso no autorizado de tu maquinaria? Con nuestro dispositivo GPS para maquinaria, tendr&aacute;s el control total gracias al registro de ubicaci&oacute;n y horas de uso en tiempo real. Se trata de un peque&ntilde;o dispositivo que se instala f&aacute;cilmente en cualquier tipo de maquinaria, como excavadoras, bulldozers, gr&uacute;as, camiones y m&aacute;s.</p>
+                                    <h4>¿C&oacute;mo te ayudamos a tener el control en tus manos?</h4>&nbsp;
+                                    <ul class="list-inline textoJustificado">
+                                        <li>
+                                            <span class="colorInTracker1">
+                                                <i class="fa-solid fa-check"></i>
+                                            </span>
+                                            <span><strong>Monitoreo en tiempo real:</strong> Accede a informaci&oacute;n actualizada desde una aplicaci&oacute;n m&oacute;vil sobre la ubicaci&oacute;n exacta de tu maquinaria y revisa el historial de ubicaciones.</span>
+                                        </li>
+                                        <li>
+                                            <span class="colorInTracker1">
+                                                <i class="fa-solid fa-check"></i>
+                                            </span>
+                                            <span><strong>Alerta por robos:</strong> Recibe notificaciones instant&aacute;neas por movimientos no autorizados.</span>
+                                        </li>
+                                        <li>
+                                            <span class="colorInTracker1">
+                                                <i class="fa-solid fa-check"></i>
+                                            </span>
+                                            <span><strong>Incremento de productividad:</strong> Obt&eacute;n datos precisos sobre su utilizaci&oacute;n para optimizar la toma de decisiones gerenciales. Mejora rutas, reduce el consumo de combustible y programa el mantenimiento preventivo.</span>
+                                        </li>
+                                        <li>
+                                            <span class="colorInTracker1">
+                                                <i class="fa-solid fa-check"></i>
+                                            </span>
+                                            <span><strong>Geocercas personalizadas:</strong> Establece zonas de trabajo virtuales y recibe alertas cuando la maquinaria entre o salga de ellas.</span>
+                                        </li>
+                                    </ul>
+                                    <em><p class="textoJustificado">Protege t&uacute; inversi&oacute;n, garantiza tu tranquilidad y optimiza el funcionamiento de la maquinaria de t&uacute; empresa con <strong>INTRACKER GPS</strong>.</p></em>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fa-brands fa-whatsapp"></i>
+                                        <span>Adquiere el Servicio</span>
+                                    </button>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fa-solid fa-rotate-left"></i>
+                                        Volver al Inicio
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="portfolio-modal modal fade" id="containers" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src={CloseButton.src} alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <h2 class="text-uppercase">Containers</h2>
+                                    <p class="item-intro text-muted">Rastrea tus paquetes de principio a fin</p>
+                                    <img class="img-fluid d-block mx-auto" src={containersModal.src} alt="..." />
+                                    <p class="textoJustificado">Los paquetes extraviados son un problema al que los comerciantes se enfrentan constantemente. Con nuestro dispositivo port&aacute;til de rastreo, podr&aacute;s conocer en todo momento d&oacute;nde se encuentran tus paquetes todo el recorrido hasta llegar a su destino, monitore&aacute;ndolos desde una aplicaci&oacute;n m&oacute;vil.</p>
+                                    <h4>¿C&oacute;mo te ayudamos a tener el control en tus manos?</h4>&nbsp;
+                                    <ul class="list-inline textoJustificado">
+                                        <li>
+                                            <span class="colorInTracker1">
+                                                <i class="fa-solid fa-check"></i>
+                                            </span>
+                                            <span><strong>Monitoreo en tiempo real:</strong> Conoce la ubicaci&oacute;n exacta de tu paquete o encomienda en todo momento.</span>
+                                        </li>
+                                        <li>
+                                            <span class="colorInTracker1">
+                                                <i class="fa-solid fa-check"></i>
+                                            </span>
+                                            <span><strong>Ahorro de dinero:</strong> Reduce el riesgo de p&eacute;rdida o robo de mercanc&iacute;a, as&iacute; como los gastos asociados a la recuperaci&oacute;n de los paquetes.</span>
+                                        </li>
+                                        <li>
+                                            <span class="colorInTracker1">
+                                                <i class="fa-solid fa-check"></i>
+                                            </span>
+                                            <span><strong>Mayor eficiencia:</strong> Optimiza la log&iacute;stica de los env&iacute;os de paquetes y encomiendas.</span>
+                                        </li>
+                                    </ul>
+                                    <em><p class="textoJustificado">Reduce riesgos con <strong>INTRACKER GPS</strong>.</p></em>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fa-brands fa-whatsapp"></i>
+                                        <span>Adquiere el Servicio</span>
+                                    </button>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fa-solid fa-rotate-left"></i>
+                                        Volver al Inicio
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         
+        <div class="portfolio-modal modal fade" id="tanquesEstacionarios" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src={CloseButton.src} alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <h2 class="text-uppercase">Tanques Estacionarios</h2>
+                                    <p class="item-intro text-muted">Controla el nivel de combustible en tus tanques con ayuda telem&aacute;tica</p>
+                                    <img class="img-fluid d-block mx-auto" src={tanquesEstacionariosModal.src} alt="..." />
+                                    <p class="textoJustificado">Conoce el nivel exacto de combustible en tus tanques estacionarios con <strong>INTRACKER GPS</strong>, al instalar un dispositivo que se encarga de medir el nivel de combustible y te permite monitorearlo desde una aplicaci&oacute;n m&oacute;vil.</p>
+                                    <h4>¿C&oacute;mo te ayudamos a tener el control en tus manos?</h4>&nbsp;
+                                    <ul class="list-inline textoJustificado">
+                                        <li>
+                                            <span class="colorInTracker1">
+                                                <i class="fa-solid fa-check"></i>
+                                            </span>
+                                            <span><strong>Monitoreo en tiempo real:</strong> Accede a informaci&oacute;n concreta sobre el nivel de combustible en tus tanques con alta precisi&oacute;n.</span>
+                                        </li>
+                                        <li>
+                                            <span class="colorInTracker1">
+                                                <i class="fa-solid fa-check"></i>
+                                            </span>
+                                            <span><strong>Ahorro de dinero:</strong> Reduce el riesgo por mermas, fugas o extracci&oacute;n no autorizada de combustible de tus tanques.</span>
+                                        </li>
+                                        <li>
+                                            <span class="colorInTracker1">
+                                                <i class="fa-solid fa-check"></i>
+                                            </span>
+                                            <span><strong>Mayor eficiencia:</strong> Optimiza la log&iacute;stica y realiza los reabastecimientos cuando sea necesario.</span>
+                                        </li>
+                                    </ul>
+                                    <em><p class="textoJustificado">Comienza a reducir costos con el servicio de monitoreo de combustible de <strong>INTRACKER GPS</strong>.</p></em>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fa-brands fa-whatsapp"></i>
+                                        <span>Adquiere el Servicio</span>
+                                    </button>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fa-solid fa-rotate-left"></i>
+                                        Volver al Inicio
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Devices Modals -->
+        <div class="portfolio-modal modal fade" id="dispositivoGPS" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src={CloseButton.src} alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-3">
+                                <img src={dispositivoGPS.src} class="img-fluid" alt="" />
+                            </div>
+                            <div class="col-lg-9">
+                                <div class="modal-body">
+                                    <h2 class="text-uppercase">Dispositivo GPS</h2>
+                                    <p class="item-intro text-muted">Veh&iacute;culos y Flotas seguras 24/7</p>
+                                    <p class="textoJustificado">Te presentamos un dispositivo de rastreo satelital que opera con tecnolog&iacute;a 3G/4G. Este dispositivo se instala en un lugar discreto de tu veh&iacute;culo o flota y te permite monitorearlos desde una c&oacute;moda plataforma.</p>
+                                    <h4>Caracter&iacute;sticas del GPS INTRACKER:</h4>&nbsp;
+                                    <ul class="list-inline textoJustificado">
+                                        <li>
+                                            <span class="colorInTracker1">
+                                                <i class="fa-solid fa-check"></i>
+                                            </span>
+                                            <span><strong>Tama&ntilde;o compacto:</strong> F&aacute;cil de instalar en cualquier veh&iacute;culo.</span>
+                                        </li>
+                                        <li>
+                                            <span class="colorInTracker1">
+                                                <i class="fa-solid fa-check"></i>
+                                            </span>
+                                            <span><strong>Impermeable:</strong> Resiste condiciones clim&aacute;ticas adversas.</span>
+                                        </li>
+                                        <li>
+                                            <span class="colorInTracker1">
+                                                <i class="fa-solid fa-check"></i>
+                                            </span>
+                                            <span><strong>Bater&iacute;a aut&oacute;noma:</strong> Mantiene el dispositivo funcionando incluso sin conexi&oacute;n el&eacute;ctrica.</span>
+                                        </li>
+                                        <li>
+                                            <span class="colorInTracker1">
+                                                <i class="fa-solid fa-check"></i>
+                                            </span>
+                                            <span><strong>Tecnolog&iacute;a 3G/4G:</strong> Conexi&oacute;n r&aacute;pida y confiable.</span>
+                                        </li>
+                                        <li>
+                                            <span class="colorInTracker1">
+                                                <i class="fa-solid fa-check"></i>
+                                            </span>
+                                            <span><strong>Antena Re-radiante:</strong> Conexi&oacute;n directa al sat&eacute;lite.</span>
+                                        </li>
+                                        <li>
+                                            <span class="colorInTracker1">
+                                                <i class="fa-solid fa-check"></i>
+                                            </span>
+                                            <span><strong>Bot&oacute;n de p&aacute;nico:</strong> Env&iacute;o de alertas de emergencia.</span>
+                                        </li>
+                                    </ul>
+                                    <h4>¿C&oacute;mo logramos que tengas el control en tus manos?</h4>&nbsp;
+                                    <ul class="list-inline textoJustificado">
+                                        <li>
+                                            <span class="colorInTracker1">
+                                                <i class="fa-solid fa-check"></i>
+                                            </span>
+                                            <span><strong>Ubicaci&oacute;n exacta en tiempo real:</strong> Conoce la ubicaci&oacute;n de tu veh&iacute;culo con actualizaciones cada 10 segundos.</span>
+                                        </li>
+                                        <li>
+                                            <span class="colorInTracker1">
+                                                <i class="fa-solid fa-check"></i>
+                                            </span>
+                                            <span><strong>Control remoto del motor:</strong> Apaga o enciende el motor a distancia en caso de emergencia.</span>
+                                        </li>
+                                        <li>
+                                            <span class="colorInTracker1">
+                                                <i class="fa-solid fa-check"></i>
+                                            </span>
+                                            <span><strong>GeoCercas personalizadas:</strong> Define zonas seguras y recibe alertas si se cruzan.</span>
+                                        </li>
+                                        <li>
+                                            <span class="colorInTracker1">
+                                                <i class="fa-solid fa-check"></i>
+                                            </span>
+                                            <span><strong>Notificaciones instant&aacute;neas:</strong> Mantente informado en tiempo real y no te pierdas ning&uacute;n detalle.</span>
+                                        </li>
+                                    </ul>
+                                    <em><p class="textoJustificado">Invierte en tu tranquilidad en unos segundos:</p></em>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fa-brands fa-whatsapp"></i>
+                                        <span>Adquiere el Servicio</span>
+                                    </button>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fa-solid fa-rotate-left"></i>
+                                        Volver al Inicio
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
