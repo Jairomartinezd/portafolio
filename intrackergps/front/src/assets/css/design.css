@@ -73,6 +73,10 @@
   text-align: center;
 }
 
+.textoIzquierdo{
+  text-align: left;
+}
+
 .iconConocenos{
     width: 70px;
 }
@@ -96,6 +100,15 @@
 
 .colorInTracker1{
   color: #6B1515;
+}
+
+.colorInTracker1Bold{
+  color: #6B1515;
+  font-weight: bold;
+}
+
+.separador{
+  margin: 10px;
 }
 
 .imagenAuto{
