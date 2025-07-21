@@ -43,6 +43,7 @@ import solar from '../assets/img/devices/solar.jpg';
 import padlock from '../assets/img/devices/padlock.jpg';
 import monitoreoSC from '../assets/img/devices/sc_1.jpg';
 import sensorNC from '../assets/img/devices/sensor_nivel_combustible.png';
+import monitoreoSVU from '../assets/img/devices/msvu_1.jpg';
 
 /* Imagenes Borrador */
 /* import portfolio1 from '../assets/img/imgs/portfolio/1.jpg';
@@ -383,6 +384,141 @@ import CloseButton from '../assets/img/imgs/close-icon.svg';
             </div>
         </section>
 
+        <!-- Testimonios -->
+        <section class="page-section bg-light" id="testimonios">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Testimonios</h2>
+                    <h3 class="section-subheading text-muted">Clientes que Conf&iacute;an en Intracker GPS</h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="testimonioClientes">
+                            <img class="mx-auto rounded-circle" src={team1.src} alt="..." />
+                            <h4>Parveen Anand</h4>
+                            <p class="text-muted">Lead Designer</p>
+                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand Twitter Profile"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand Facebook Profile"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="testimonioClientes">
+                            <img class="mx-auto rounded-circle" src={team2.src} alt="..." />
+                            <h4>Diana Petersen</h4>
+                            <p class="text-muted">Lead Marketer</p>
+                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen Twitter Profile"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen Facebook Profile"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="testimonioClientes">
+                            <img class="mx-auto rounded-circle" src={team3.src} alt="..." />
+                            <h4>Larry Parker</h4>
+                            <p class="text-muted">Lead Developer</p>
+                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Twitter Profile"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Facebook Profile"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Clientes -->
+        <section class="page-section bg-light" id="empresas">
+            <div class="py-5">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Empresas</h2>
+                    <h3 class="section-subheading text-muted">Empresas que Conf&iacute;an en Nosotros</h3>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-md-3 col-sm-6 my-3">
+                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src={logoMicrosoft.src} alt="..." aria-label="Microsoft Logo" /></a>
+                    </div>
+                    <div class="col-md-3 col-sm-6 my-3">
+                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src={logoGoogle.src} alt="..." aria-label="Google Logo" /></a>
+                    </div>
+                    <div class="col-md-3 col-sm-6 my-3">
+                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src={logoFacebook.src} alt="..." aria-label="Facebook Logo" /></a>
+                    </div>
+                    <div class="col-md-3 col-sm-6 my-3">
+                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src={logoIBM.src} alt="..." aria-label="IBM Logo" /></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+
+        <!-- Contacto -->
+        <section class="page-section" id="contacto">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Contact Us</h2>
+                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                </div>
+                <!-- * * * * * * * * * * * * * * *-->
+                <!-- * * SB Forms Contact Form * *-->
+                <!-- * * * * * * * * * * * * * * *-->
+                <!-- This form is pre-integrated with SB Forms.-->
+                <!-- To make this form functional, sign up at-->
+                <!-- https://startbootstrap.com/solution/contact-forms -->
+                <!-- to get an API token! -->
+                <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                    <div class="row align-items-stretch mb-5">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <!-- Name input-->
+                                <input class="form-control" id="name" type="text" placeholder="Your Name *" data-sb-validations="required" />
+                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                            </div>
+                            <div class="form-group">
+                                <!-- Email address input -->
+                                <input class="form-control" id="email" type="email" placeholder="Your Email *" data-sb-validations="required,email" />
+                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
+                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+                            </div>
+                            <div class="form-group mb-md-0">
+                                <!-- Phone number input -->
+                                <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" data-sb-validations="required" />
+                                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group form-group-textarea mb-md-0">
+                                <!-- Message input -->
+                                <textarea class="form-control" id="message" placeholder="Your Message *" data-sb-validations="required"></textarea>
+                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Submit success message -->
+                    <!-- -->
+                    <!-- This is what your users will see when the form -->
+                    <!-- has successfully submitted -->
+                    <div class="d-none" id="submitSuccessMessage">
+                        <div class="text-center text-white mb-3">
+                            <div class="fw-bolder">Form submission successful!</div>
+                            To activate this form, sign up at
+                            <br />
+                            <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                        </div>
+                    </div>
+                    <!-- Submit error message -->
+                    <!-- -->
+                    <!-- This is what your users will see when there is -->
+                    <!-- an error submitting the form-->
+                    <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
+                    <!-- Submit Button -->
+                    <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit">Send Message</button></div>
+                </form>
+            </div>
+        </section>
 
         <!-- About -->
         <section class="page-section" id="about">
@@ -1492,88 +1628,67 @@ import CloseButton from '../assets/img/imgs/close-icon.svg';
                                         <h3 class="textoIzquierdo">Sensor de Nivel de Combustible Capacitivo</h3>
                                         <div class="separador"></div>
                                         <p class="textoJustificado">El SNC Capacitivo se instala en el tanque del veh&iacute;culo a petici&oacute;n del propietario de la unidad. La principal motivaci&oacute;n para la instalaci&oacute;n, es una medici&oacute;n precisa del combustible consumido, as&iacute; como el registro y detecci&oacute;n del robo de combustible.</p>
-                                        <p><strong>Principio de operaci&oacute;n:</strong> El SNC Capacitivo opera, como su nombre lo indica, con un capacitor el&eacute;ctrico.</p>
-                                        <p><strong>Principio de funcionamiento:</strong> La medici&oacute;n se efect&uacute;a a trav&eacute;s de dos tubos insertados uno dentro del otro (con menos frecuencia, un tubo y una cuerda interna) que act&uacute;an como placas condensadoras. Entre los dos tubos, hay una brecha que se llena de combustible y act&uacute;a como un condensador diel&eacute;ctrico. Las superficies de los dos electrodos de tubo no se tocan y el espacio entre las placas se llena de combustible cuando el sensor se sumerge en el tanque y se vacía tan pronto como el nivel de combustible disminuye, de modo que el nivel de combustible entre los tubos corresponde exactamente al nivel de combustible en el tanque.</p>
-                                        <p>A medida que el combustible llena el espacio entre las placas de los condensadores (tubos del sensor), su capacidad el&eacute;ctrica cambia. Por ejemplo, la gasolina tiene una resistividad el&eacute;ctrica m&aacute;s baja que el aire. Cuanto mayor sea el nivel de gas entre los tubos, m&aacute;s r&aacute;pido se cargar&aacute; el condensador.</p>
-                                        <p>El tiempo de carga se calcula en la placa del sensor. Con base en esta informaci&oacute;n, la altura de la columna de combustible se calcula en el SNC y en el tanque. Esta informaci&oacute;n se transmite desde el sensor a la terminal del GPS, modulado el voltaje (SNC anal&oacute;gico), frecuencia (SNC de frecuencia) o de forma digitalizada (SNC digital). El SNC capacitivo est&aacute; conectado al rastreador de GPS. Los datos de medición se transmiten al sistema de monitoreo, junto con datos de ubicación.</p>
+                                        <p class="textoJustificado"><strong>Principio de operaci&oacute;n:</strong> El SNC Capacitivo opera, como su nombre lo indica, con un capacitor el&eacute;ctrico.</p>
+                                        <p class="textoJustificado"><strong>Principio de funcionamiento:</strong> La medici&oacute;n se efect&uacute;a a trav&eacute;s de dos tubos insertados uno dentro del otro (con menos frecuencia, un tubo y una cuerda interna) que act&uacute;an como placas condensadoras. Entre los dos tubos, hay una brecha que se llena de combustible y act&uacute;a como un condensador diel&eacute;ctrico. Las superficies de los dos electrodos de tubo no se tocan y el espacio entre las placas se llena de combustible cuando el sensor se sumerge en el tanque y se vacía tan pronto como el nivel de combustible disminuye, de modo que el nivel de combustible entre los tubos corresponde exactamente al nivel de combustible en el tanque.</p>
+                                        <p class="textoJustificado">A medida que el combustible llena el espacio entre las placas de los condensadores (tubos del sensor), su capacidad el&eacute;ctrica cambia. Por ejemplo, la gasolina tiene una resistividad el&eacute;ctrica m&aacute;s baja que el aire. Cuanto mayor sea el nivel de gas entre los tubos, m&aacute;s r&aacute;pido se cargar&aacute; el condensador.</p>
+                                        <p class="textoJustificado">El tiempo de carga se calcula en la placa del sensor. Con base en esta informaci&oacute;n, la altura de la columna de combustible se calcula en el SNC y en el tanque. Esta informaci&oacute;n se transmite desde el sensor a la terminal del GPS, modulado el voltaje (SNC anal&oacute;gico), frecuencia (SNC de frecuencia) o de forma digitalizada (SNC digital). El SNC capacitivo est&aacute; conectado al rastreador de GPS. Los datos de medición se transmiten al sistema de monitoreo, junto con datos de ubicación.</p>
                                     </div>
                                     <div class="col-lg-3">
                                         <img src={sensorNC.src} class="img-fluid" alt="">
                                     </div>
                                 </div>
-                                <p class="textoJustificado">Te presentamos un dispositivo de rastreo satelital que opera con tecnolog&iacute;a 3G/4G. Este dispositivo se instala en un lugar discreto de tu veh&iacute;culo o flota y te permite monitorearlos desde una c&oacute;moda plataforma.</p>
-                                <h4>Caracter&iacute;sticas del GPS INTRACKER:</h4>&nbsp;
+                                <h4 class="textoIzquierdo">Ideal para:</h4>&nbsp;
                                 <ul class="list-inline textoJustificado">
                                     <li>
                                         <span class="colorInTracker1">
                                             <i class="fa-solid fa-check"></i>
                                         </span>
-                                        <span><strong>Tama&ntilde;o compacto:</strong> F&aacute;cil de instalar en cualquier veh&iacute;culo.</span>
+                                        <span><strong>Gesti&oacute;n de flotas:</strong> Ideal para veh&iacute;culos, camiones, autocares y motores agr&iacute;colas en sistemas de seguimiento y gesti&oacute;n de flotas por GPS.</span>
                                     </li>
                                     <li>
                                         <span class="colorInTracker1">
                                             <i class="fa-solid fa-check"></i>
                                         </span>
-                                        <span><strong>Impermeable:</strong> Resiste condiciones clim&aacute;ticas adversas.</span>
+                                        <span><strong>Uso mar&iacute;timo:</strong> Adecuado para embarcaciones y transporte mar&iacute;timo para un seguimiento preciso del nivel de combustible.</span>
                                     </li>
                                     <li>
                                         <span class="colorInTracker1">
                                             <i class="fa-solid fa-check"></i>
                                         </span>
-                                        <span><strong>Bater&iacute;a aut&oacute;noma:</strong> Mantiene el dispositivo funcionando incluso sin conexi&oacute;n el&eacute;ctrica.</span>
+                                        <span><strong>Plantas el&eacute;ctricas:</strong> Monitoreo confiable de los niveles de combustible en plantas el&eacute;ctricas.</span>
                                     </li>
                                     <li>
                                         <span class="colorInTracker1">
                                             <i class="fa-solid fa-check"></i>
                                         </span>
-                                        <span><strong>Tecnolog&iacute;a 3G/4G:</strong> Conexi&oacute;n r&aacute;pida y confiable.</span>
+                                        <span><strong>Maquinaria de Construcci&oacute;n:</strong> Esencial en maquinaria de construcci&oacute;n para garantizar una adecuada gesti&oacute;n del combustible.</span>
                                     </li>
                                     <li>
                                         <span class="colorInTracker1">
                                             <i class="fa-solid fa-check"></i>
                                         </span>
-                                        <span><strong>Antena Re-radiante:</strong> Conexi&oacute;n directa al sat&eacute;lite.</span>
+                                        <span><strong>Almacenamiento de petr&oacute;leo industrial:</strong> Perfecto para tanques de almacenamiento de petr&oacute;leo industrial y tanques de almacenamiento estacionarios.</span>
                                     </li>
                                     <li>
                                         <span class="colorInTracker1">
                                             <i class="fa-solid fa-check"></i>
                                         </span>
-                                        <span><strong>Bot&oacute;n de p&aacute;nico:</strong> Env&iacute;o de alertas de emergencia.</span>
+                                        <span><strong>Instalaciones industriales:</strong> Ideal para f&aacute;bricas y zonas industriales que requieren mediciones precisas del nivel de combustible.</span>
+                                    </li>
+                                    <li>
+                                        <span class="colorInTracker1">
+                                            <i class="fa-solid fa-check"></i>
+                                        </span>
+                                        <span><strong>Maquinaria Agr&iacute;cola:</strong> Imprescindible para mantener niveles &oacute;ptimos de combustible en m&aacute;quinas agr&iacute;colas.</span>
+                                    </li>
+                                    <li>
+                                        <span class="colorInTracker1">
+                                            <i class="fa-solid fa-check"></i>
+                                        </span>
+                                        <span><strong>Amplia gama de usos:</strong> La aplicaci&oacute;n versátil se extiende a diversas industrias, incluidas el transporte, la fabricaci&oacute;n y m&aacute;s.</span>
                                     </li>
                                 </ul>
-                                <h4>¿Qu&eacute; puedo hacer desde la plataforma?</h4>&nbsp;
-                                <ul class="list-inline textoJustificado">
-                                    <li>
-                                        <span class="colorInTracker1">
-                                            <i class="fa-solid fa-check"></i>
-                                        </span>
-                                        <span>Ubicaci&oacute;n exacta en tiempo real.</span>
-                                    </li>
-                                    <li>
-                                        <span class="colorInTracker1">
-                                            <i class="fa-solid fa-check"></i>
-                                        </span>
-                                        <span>Historial de recorrido.</span>
-                                    </li>
-                                    <li>
-                                        <span class="colorInTracker1">
-                                            <i class="fa-solid fa-check"></i>
-                                        </span>
-                                        <span>Alarmas (notificaciones): Desconexi&oacute;n de bater&iacute;a, exceso de velocidad, encendido y apagado, colisi&oacute;n, giro brusco, entrada y salida de geocerca.</span>
-                                    </li>
-                                    <li>
-                                        <span class="colorInTracker1">
-                                            <i class="fa-solid fa-check"></i>
-                                        </span>
-                                        <span>Micr&oacute;fono interno (opcional).</span>
-                                    </li>
-                                    <li>
-                                        <span class="colorInTracker1">
-                                            <i class="fa-solid fa-check"></i>
-                                        </span>
-                                        <span>Apagado y encendido remoto del veh&iacute;culo.</span>
-                                    </li>
-                                </ul>
+                                <img src={monitoreoSVU.src} class="img-fluid" alt="">
                                 <h3 class="colorInTracker1Bold">¡Cotiza Ahora!</h3>&nbsp;
                                 <div class="separador"></div>
                                 <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
