@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.11",
-    "astro": "^5.11.0",
+    "astro": "^5.12.2",
     "bootstrap": "^5.3.7",
     "daisyui": "^5.0.46",
     "jquery": "^3.7.1",
