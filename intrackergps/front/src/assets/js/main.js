@@ -32,6 +32,10 @@ owl.owlCarousel({
     autoplayHoverPause:true
 });
 
+/* Mostrar el Año Actual */
+const fecha = new Date();
+const anio = fecha.getFullYear();
+document.getElementById("anioActual").textContent = anio;
 
 
 

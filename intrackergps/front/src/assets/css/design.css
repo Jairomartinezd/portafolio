@@ -1,3 +1,14 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+body{
+  font-family: 'Montserrat',sans-serif !important;
+}
+
 .flex-container{
     display: flex;
     flex-flow: row wrap;
@@ -81,11 +92,23 @@
   width: 70px;
 }
 
+.boxIconFunciones{
+  width: 155px;
+  height: 155px;
+  /* padding: 25px; */
+  justify-content: center;
+  align-content: center;
+}
+
 .iconFunciones{
-  width: 150px;
-  height: 150px;
-  vertical-align: middle;
-} 
+  width: 90px;
+  height: 90px;
+}
+
+.imgFooter{
+  width: auto;
+  height: 400px;
+}
 
 .imagenCarruselServicios{
     width: 600px;
@@ -123,6 +146,29 @@
 
 .textoBlanco{
   color: #FFF;
+}
+
+.btn-social-intracker{
+  --bs-btn-color: #fff !important;
+  --bs-btn-bg: #6B1515 !important;
+  --bs-btn-border-color: #6B1515 !important;
+  --bs-btn-hover-color: #fff !important;
+  --bs-btn-hover-bg: #424649 !important;
+  --bs-btn-hover-border-color: #373b3e !important;
+  --bs-btn-focus-shadow-rgb: 66, 70, 73 !important;
+  --bs-btn-active-color: #fff !important;
+  --bs-btn-active-bg: #6B1515 !important;
+  --bs-btn-active-border-color: #6B1515 !important;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125) !important;
+  --bs-btn-disabled-color: #fff !important;
+  --bs-btn-disabled-bg: #6B1515 !important;
+  --bs-btn-disabled-border-color: #6B1515 !important;
+}
+
+.imgRedesSociales{
+  justify-content: center !important;
+  align-content: center !important;
+  padding: 5px;
 }
 
 /* Sección Servicios */
