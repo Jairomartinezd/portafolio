@@ -148,6 +148,11 @@ body{
   color: #FFF;
 }
 
+.btn-intracker{
+  background-color: #6B1515 !important;
+  border-color: #6B1515 !important;
+}
+
 .btn-social-intracker{
   --bs-btn-color: #fff !important;
   --bs-btn-bg: #6B1515 !important;
