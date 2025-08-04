@@ -176,6 +176,10 @@ body{
   padding: 5px;
 }
 
+.margenSoluciones{
+  margin-bottom: 40px;
+}
+
 /* Sección Servicios */
 #servicios .servicios-item {
   max-width: 26rem;
