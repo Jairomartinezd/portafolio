@@ -683,8 +683,8 @@ section#contacto .text-muted{
 
 .card2 {
   overflow: visible;
-  width: 190px;
-  height: 254px;
+  width: 200px;
+  height: 300px;
 }
 
 .content2 {
@@ -794,7 +794,9 @@ section#contacto .text-muted{
 }
 
 .title2 p {
-  width: 50%;
+  /* width: 50%; */
+  text-align: justify;
+  font-size: 11px;
 }
 
 .card2-footer {
