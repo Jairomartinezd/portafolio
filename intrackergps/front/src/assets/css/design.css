@@ -184,6 +184,10 @@ body{
   padding: 0px !important;
 }
 
+.marginCardBottom{
+  margin-bottom: 8px;
+}
+
 /* Sección Soluciones */
 #soluciones .soluciones-item {
   max-width: 26rem;
