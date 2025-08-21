@@ -8,6 +8,8 @@ import iconSatelite from '../assets/img/icon1.png';
 import iconCelGPS from '../assets/img/icon2.png';
 import imgConocenos1 from '../assets/img/img1.webp';
 import imgConocenos2 from '../assets/img/img4.webp';
+import CloseButton from '../assets/img/imgs/close-icon.svg';
+import flotasModal from '../assets/img/services/flota.jpg';
 
 /* Importacion Secciones */
 import Cabecera from './secciones_VE/cabecera.astro';
@@ -59,3 +61,70 @@ import ModalDispositivos from './modal_VE/modalDispositivos.astro';
     <!-- Devices Modals INTRACKER -->
     <ModalDispositivos></ModalDispositivos>
         
+<div class="portfolio-modal modal fade" id="flotas2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-bs-dismiss="modal"><img src={CloseButton.src} alt="Close modal" /></div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="modal-body">
+                            <h2 class="text-uppercase">Flotas</h2>
+                            <p class="item-intro text-muted">Transforma la gesti&oacute;n de tu flota mientras garantizas su seguridad</p>
+                            <img class="img-fluid d-block mx-auto" src={flotasModal.src} alt="..." />
+                            <p class="textoJustificado">El servicio satelital <strong>INTRACKER GPS</strong> para flotas y veh&iacute;culos de carga pesada no solo asegura la protecci&oacute;n de tus activos m&aacute;s valiosos. Gracias al monitoreo constante en tiempo real, podr&aacute;s mejorar la gesti&oacute;n de tu flota, incrementar la vida &uacute;til de tus vehículos y ahorrar dinero en reparaciones inesperadas.</p>
+                            <h4>¿C&oacute;mo logramos que tengas el control en tus manos?</h4>&nbsp;
+                            <ul class="list-inline textoJustificado">
+                                <li>
+                                    <span class="colorInTracker1">
+                                        <i class="fa-solid fa-check"></i>
+                                    </span>
+                                    <span><strong>Acceso a informaci&oacute;n detallada:</strong> Obt&eacute;n datos precisos sobre cada punto del trayecto.</span>
+                                </li>
+                                <li>
+                                    <span class="colorInTracker1">
+                                        <i class="fa-solid fa-check"></i>
+                                    </span>
+                                    <span><strong>Localizaci&oacute;n en tiempo real:</strong> Visualiza toda tu flota en una sola pantalla desde tu smartphone o pc.</span>
+                                </li>
+                                <li>
+                                    <span class="colorInTracker1">
+                                        <i class="fa-solid fa-check"></i>
+                                    </span>
+                                    <span><strong>Eficiencia operativa:</strong> Mejora dr&aacute;sticamente los tiempos de entrega y la eficiencia operativa.</span>
+                                </li>
+                                <li>
+                                    <span class="colorInTracker1">
+                                        <i class="fa-solid fa-check"></i>
+                                    </span>
+                                    <span><strong>Geo-cercas personalizadas:</strong> Configura y recibe alertas de zonas seguras.</span>
+                                </li>
+                                <li>
+                                    <span class="colorInTracker1">
+                                        <i class="fa-solid fa-check"></i>
+                                    </span>
+                                    <span><strong>Incremento de productividad:</strong> Elimina paradas y recorridos innecesarios.</span>
+                                </li>
+                                <li>
+                                    <span class="colorInTracker1">
+                                        <i class="fa-solid fa-check"></i>
+                                    </span>
+                                    <span><strong>Recuperación r&aacute;pida:</strong> Apaga el motor de forma remota y recupera el veh&iacute;culo de inmediato en caso de robo.</span>
+                                </li>
+                            </ul>
+                            <em><p class="textoJustificado">Invierte en la seguridad y eficiencia de tu flota con <strong>INTRACKER GPS</strong> y lleva la productividad de tu empresa al siguiente nivel.</p></em>
+                            <button class="btn btn-primary btn-intracker btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                <i class="fa-brands fa-whatsapp"></i>
+                                <span>Adquiere el Servicio</span>
+                            </button>
+                            <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                <i class="fa-solid fa-rotate-left"></i>
+                                Volver al Inicio
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
