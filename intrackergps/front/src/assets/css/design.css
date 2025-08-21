@@ -110,20 +110,20 @@ body{
   height: 400px;
 }
 
-.imagenCarruselServicios{
+.imagenCarruselSoluciones{
     width: 600px;
     height: 450px;
 }
 
-.tituloServicios{
+.tituloSoluciones{
   font-size: 20px !important;
 }
 
-.tituloServiciosLargo{
+.tituloSolucionesLargo{
   font-size: 18px !important;
 }
 
-.resumenServicio{
+.resumenSoluciones{
   font-size: 14px !important;
 }
 
@@ -180,18 +180,22 @@ body{
   margin-bottom: 40px;
 }
 
-/* Sección Servicios */
-#servicios .servicios-item {
+.paddingCard{
+  padding: 0px !important;
+}
+
+/* Sección Soluciones */
+#soluciones .soluciones-item {
   max-width: 26rem;
   margin-left: auto;
   margin-right: auto;
 }
-#servicios .servicios-item .servicios-link {
+#soluciones .soluciones-item .soluciones-link {
   position: relative;
   display: block;
   margin: 0 auto;
 }
-#servicios .servicios-item .servicios-link .servicios-hover {
+#soluciones .soluciones-item .soluciones-link .soluciones-hover {
   display: flex;
   position: absolute;
   width: 100%;
@@ -202,57 +206,57 @@ body{
   opacity: 0;
   transition: opacity ease-in-out 0.25s;
 }
-#servicios .servicios-item .servicios-link .servicios-hover .servicios-hover-content {
+#soluciones .soluciones-item .soluciones-link .soluciones-hover .soluciones-hover-content {
   font-size: 1.25rem;
   color: white;
 }
-#servicios .servicios-item .servicios-link:hover .servicios-hover {
+#soluciones .soluciones-item .soluciones-link:hover .soluciones-hover {
   opacity: 1;
 }
-#servicios .servicios-item .servicios-caption {
+#soluciones .soluciones-item .soluciones-caption {
   padding: 1.5rem;
   text-align: center;
   background-color: #fff;
 }
-#servicios .servicios-item .servicios-caption .servicios-caption-heading {
+#soluciones .soluciones-item .soluciones-caption .soluciones-caption-heading {
   font-size: 1.5rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   margin-bottom: 0;
 }
-#servicios .servicios-item .servicios-caption .servicios-caption-subheading {
+#soluciones .soluciones-item .soluciones-caption .soluciones-caption-subheading {
   font-style: italic;
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-.servicios-modal .modal-dialog {
+.soluciones-modal .modal-dialog {
   margin: 1rem;
   max-width: 100vw;
 }
-.servicios-modal .modal-content {
+.soluciones-modal .modal-content {
   padding-top: 6rem;
   padding-bottom: 6rem;
   text-align: center;
 }
-.servicios-modal .modal-content h2, .servicios-modal .modal-content .h2 {
+.soluciones-modal .modal-content h2, .soluciones-modal .modal-content .h2 {
   font-size: 3rem;
   line-height: 3rem;
 }
-.servicios-modal .modal-content p.item-intro {
+.soluciones-modal .modal-content p.item-intro {
   font-style: italic;
   margin-bottom: 2rem;
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
-.servicios-modal .modal-content p {
+.soluciones-modal .modal-content p {
   margin-bottom: 2rem;
 }
-.servicios-modal .modal-content ul.list-inline {
+.soluciones-modal .modal-content ul.list-inline {
   margin-bottom: 2rem;
 }
-.servicios-modal .modal-content img {
+.soluciones-modal .modal-content img {
   margin-bottom: 2rem;
 }
-.servicios-modal .close-modal {
+.soluciones-modal .close-modal {
   position: absolute;
   top: 1.5rem;
   right: 1.5rem;
@@ -261,7 +265,7 @@ body{
   cursor: pointer;
   background-color: transparent;
 }
-.servicios-modal .close-modal:hover {
+.soluciones-modal .close-modal:hover {
   opacity: 0.3;
 }
 
@@ -683,8 +687,8 @@ section#contacto .text-muted{
 
 .card2 {
   overflow: visible;
-  width: 200px;
-  height: 300px;
+  width: 240px;
+  height: 450px;
 }
 
 .content2 {

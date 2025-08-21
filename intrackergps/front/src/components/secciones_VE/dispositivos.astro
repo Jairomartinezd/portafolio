@@ -1,0 +1,97 @@
+---
+import dispositivoGPS from '../../assets/img/devices/dispositivo.jpg';
+import iridium from '../../assets/img/devices/iridium.jpg';
+import portatil from '../../assets/img/devices/portatil.jpg';
+import sensorCombustible from '../../assets/img/devices/sensor_combustible.jpg';
+import solar from '../../assets/img/devices/solar.jpg';
+import padlock from '../../assets/img/devices/padlock.jpg';
+---
+
+<section class="page-section bg-light" id="dispositivos">
+    <div class="container">
+        <div class="text-center">
+            <h2 class="section-heading text-uppercase">Dispositivos</h2>
+            <h3 class="section-subheading text-muted">Monitorea y Rastrea con Precisi&oacute;n</h3>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-sm-6 mb-4">
+                <div class="dispositivos-item">
+                    <a class="dispositivos-link" data-bs-toggle="modal" href="#dispositivoGPS">
+                        <div class="dispositivos-hover">
+                            <div class="dispositivos-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src={dispositivoGPS.src} alt="..." />
+                    </a>
+                    <div class="dispositivos-caption">
+                        <div class="dispositivos-caption-heading">Dispositivo GPS</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 mb-4">
+                <div class="dispositivos-item">
+                    <a class="dispositivos-link" data-bs-toggle="modal" href="#dispositivoIridium">
+                        <div class="dispositivos-hover">
+                            <div class="dispositivos-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src={iridium.src} alt="..." />
+                    </a>
+                    <div class="dispositivos-caption">
+                        <div class="dispositivos-caption-heading">GPS Iridium</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 mb-4">
+                <div class="dispositivos-item">
+                    <a class="dispositivos-link" data-bs-toggle="modal" href="#dispositivoPortatil">
+                        <div class="dispositivos-hover">
+                            <div class="dispositivos-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src={portatil.src} alt="..." />
+                    </a>
+                    <div class="dispositivos-caption">
+                        <div class="dispositivos-caption-heading">GPS Port&aacute;til</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                <div class="dispositivos-item">
+                    <a class="dispositivos-link" data-bs-toggle="modal" href="#dispositivoSC">
+                        <div class="dispositivos-hover">
+                            <div class="dispositivos-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src={sensorCombustible.src} alt="..." />
+                    </a>
+                    <div class="dispositivos-caption">
+                        <div class="dispositivos-caption-heading">Sensor de Combustible Capacitivo</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+                <div class="dispositivos-item">
+                    <a class="dispositivos-link" data-bs-toggle="modal" href="#dispositivoSolar">
+                        <div class="dispositivos-hover">
+                            <div class="dispositivos-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src={solar.src} alt="..." />
+                    </a>
+                    <div class="dispositivos-caption">
+                        <div class="dispositivos-caption-heading">GPS Solar</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="dispositivos-item">
+                    <a class="dispositivos-link" data-bs-toggle="modal" href="#dispositivoPadlock">
+                        <div class="dispositivos-hover">
+                            <div class="dispositivos-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src={padlock.src} alt="..." />
+                    </a>
+                    <div class="dispositivos-caption">
+                        <div class="dispositivos-caption-heading">GPS Padlock</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

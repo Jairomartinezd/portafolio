@@ -1,0 +1,170 @@
+---
+import vehiculos from '../../assets/img/services/carrusel/vehiculo.jpg';
+import flotas from '../../assets/img/services/carrusel/flota.jpg';
+import motos from '../../assets/img/services/carrusel/moto.jpg';
+import smartphones from '../../assets/img/services/carrusel/smartphone.jpg';
+import mascotas from '../../assets/img/services/carrusel/mascota.jpg';
+import personal from '../../assets/img/services/carrusel/personal.jpg';
+import embarcaciones from '../../assets/img/services/carrusel/embarcacion.jpg';
+import maquinaria from '../../assets/img/services/carrusel/maquinaria.jpg';
+import containers from '../../assets/img/services/carrusel/containers.jpg';
+import tanquesEstacionarios from '../../assets/img/services/carrusel/tanques.jpg';
+---
+
+<section class="page-section bg-light" id="soluciones">
+    <div class="container">
+        <div class="text-center">
+            <h2 class="section-heading text-uppercase">Soluciones</h2>
+            <h3 class="section-subheading text-muted">Ubicaci&oacute;n y Rastreo en Tiempo Real</h3>
+        </div>
+        <div class="row">
+            <div class="col-md-9">
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="soluciones-item">
+                            <a class="soluciones-link" data-bs-toggle="modal" href="#vehiculos">
+                                <div class="soluciones-hover">
+                                    <div class="soluciones-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src={vehiculos.src} alt="..." />
+                            </a>
+                            <div class="soluciones-caption">
+                                <div class="soluciones-caption-heading tituloSoluciones">Veh&iacute;culos</div>
+                                <div class="soluciones-caption-subheading text-muted resumenSoluciones">Asegura T&uacute; tranquilidad en cada kil&oacute;metro recorrido</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="soluciones-item">
+                            <a class="soluciones-link" data-bs-toggle="modal" href="#flotas">
+                                <div class="soluciones-hover">
+                                    <div class="soluciones-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src={flotas.src} alt="..." />
+                            </a>
+                            <div class="soluciones-caption">
+                                <div class="soluciones-caption-heading tituloSoluciones">Flotas</div>
+                                <div class="soluciones-caption-subheading text-muted resumenSoluciones">Transforma la gesti&oacute;n de tu flota mientras garantizas su seguridad</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="soluciones-item">
+                            <a class="soluciones-link" data-bs-toggle="modal" href="#motos">
+                                <div class="soluciones-hover">
+                                    <div class="soluciones-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src={motos.src} alt="..." />
+                            </a>
+                            <div class="soluciones-caption">
+                                <div class="soluciones-caption-heading tituloSoluciones">Motos</div>
+                                <div class="soluciones-caption-subheading text-muted resumenSoluciones">Recupera la calma vigilando tu moto en tiempo real</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="soluciones-item">
+                            <a class="soluciones-link" data-bs-toggle="modal" href="#smartphones">
+                                <div class="soluciones-hover">
+                                    <div class="soluciones-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src={smartphones.src} alt="..." />
+                            </a>
+                            <div class="soluciones-caption">
+                                <div class="soluciones-caption-heading tituloSoluciones">Smartphones</div>
+                                <div class="soluciones-caption-subheading text-muted resumenSoluciones">Protege t&uacute; mundo con rastreo satelital para smartphones</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="soluciones-item">
+                            <a class="soluciones-link" data-bs-toggle="modal" href="#mascotas">
+                                <div class="soluciones-hover">
+                                    <div class="soluciones-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src={mascotas.src} alt="..." />
+                            </a>
+                            <div class="soluciones-caption">
+                                <div class="soluciones-caption-heading tituloSoluciones">Mascotas</div>
+                                <div class="soluciones-caption-subheading text-muted resumenSoluciones">Localiza a tus peludos con monitoreo remoto</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="soluciones-item">
+                            <a class="soluciones-link" data-bs-toggle="modal" href="#personal">
+                                <div class="soluciones-hover">
+                                    <div class="soluciones-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src={personal.src} alt="..." />
+                            </a>
+                            <div class="soluciones-caption">
+                                <div class="soluciones-caption-heading tituloSoluciones">Personal</div>
+                                <div class="soluciones-caption-subheading text-muted resumenSoluciones">Mant&eacute;n a los m&aacute;s peque&ntilde;os siempre a la vista</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="soluciones-item">
+                            <a class="soluciones-link" data-bs-toggle="modal" href="#embarcaciones">
+                                <div class="soluciones-hover">
+                                    <div class="soluciones-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src={embarcaciones.src} alt="..." />
+                            </a>
+                            <div class="soluciones-caption">
+                                <div class="soluciones-caption-heading tituloSoluciones">Embarcaciones</div>
+                                <div class="soluciones-caption-subheading text-muted resumenSoluciones">Navegue sin miedo</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="soluciones-item">
+                            <a class="soluciones-link" data-bs-toggle="modal" href="#maquinarias">
+                                <div class="soluciones-hover">
+                                    <div class="soluciones-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src={maquinaria.src} alt="..." />
+                            </a>
+                            <div class="soluciones-caption">
+                                <div class="soluciones-caption-heading tituloSoluciones">Maquinarias</div>
+                                <div class="soluciones-caption-subheading text-muted resumenSoluciones">Protege t&uacute; inversi&oacute;n</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="soluciones-item">
+                            <a class="soluciones-link" data-bs-toggle="modal" href="#containers">
+                                <div class="soluciones-hover">
+                                    <div class="soluciones-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src={containers.src} alt="..." />
+                            </a>
+                            <div class="soluciones-caption">
+                                <div class="soluciones-caption-heading tituloSoluciones">Containers</div>
+                                <div class="soluciones-caption-subheading text-muted resumenSoluciones">Rastrea tus paquetes de principio a fin</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="soluciones-item">
+                            <a class="soluciones-link" data-bs-toggle="modal" href="#tanquesEstacionarios">
+                                <div class="soluciones-hover">
+                                    <div class="soluciones-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src={tanquesEstacionarios.src} alt="..." />
+                            </a>
+                            <div class="soluciones-caption">
+                                <div class="soluciones-caption-heading tituloSolucionesLargo">Tanques Estacionarios</div>
+                                <div class="soluciones-caption-subheading text-muted resumenSoluciones">Controla tus tanques con nuestra ayuda telem&aacute;tica</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <p class="textoJustificado">Nuestra moderna plataforma te brinda una gama de funciones que podr&aacute;s utilizar de una manera f&aacute;cil y sencilla, ingresando desde una PC o un dispositivo m&oacute;vil descargando nuestra aplicaci&oacute;n.</p>
+            </div>
+        </div>
+    </div>
+</section>
