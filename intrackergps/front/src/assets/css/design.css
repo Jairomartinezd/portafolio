@@ -188,6 +188,10 @@ body{
   margin-bottom: 8px;
 }
 
+.cursorVenezuela{
+  cursor: url("../img/ve.png");
+}
+
 /* Sección Soluciones */
 #soluciones .soluciones-item {
   max-width: 26rem;
