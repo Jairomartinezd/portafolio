@@ -26,6 +26,8 @@
     });    
   });
 
+  //Año Actual
+  document.getElementById("anio").textContent = new Date().getFullYear();
 
     
 
